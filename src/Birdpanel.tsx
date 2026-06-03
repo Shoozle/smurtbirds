@@ -13,7 +13,7 @@ function BirdPanel({ onClick, name, summary, images, date }: BirdProps) {
     //const thumburl = `/Birds/thumbs/${name}${images[0]}.JPG`;
     //const githuburl = `https://shoozle.github.io/smurtbirds/Birds/${name}${images[0]}.JPG`;
 
-    const imageGalley = images.map((image, i) => {
+    const imageGalley = images.map((image) => {
 
         //const thumburl = `/Birds/thumbs/${name}${images[0]}.JPG`;
         const githuburl = `https://shoozle.github.io/smurtbirds/Birds/${name}${image}.JPG`;
