@@ -11,7 +11,7 @@ interface BirdProps {
 function BirdPanel({ onClick, name, summary, images, date }: BirdProps) {
 
     const imageGalley = images.map((image) => (
-        <img src={`/Public/Birds/${name}${image}.JPG`} alt={name} className="w-100" />
+        <img src={`/Birds/${name}${image}.JPG`} alt={name} className="w-100" />
     ))
 
     return (
