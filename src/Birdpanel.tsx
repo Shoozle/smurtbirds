@@ -10,8 +10,11 @@ interface BirdProps {
 
 function BirdPanel({ onClick, name, summary, images, date }: BirdProps) {
 
+    const thumburl = `/Birds/thumbs/${name}${images[0]}.JPG`;
+    const githuburl = `https://shoozle.github.io/smurtbirds/Birds/thumbs/${name}${images[0]}.JPG`;
+
     const imageGalley = images.map((image) => (
-        <img src={`/Birds/${name}${image}.JPG`} alt={name} className="w-100" />
+        <img src={githuburl} alt={name} className="w-100" />
     ))
 
     return (
