@@ -10,3 +10,5 @@ export default defineConfig({
     tailwindcss()
   ],
 })
+
+//. infront works in preview but still not in github
