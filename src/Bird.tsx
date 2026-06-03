@@ -6,7 +6,7 @@ interface BirdProps {
 
 function Bird({ onClick, name, images }: BirdProps) {
 
-    const thumburl = `/Birds/thumbs/${name}${images[0]}.JPG`;
+    //const thumburl = `/Birds/thumbs/${name}${images[0]}.JPG`;
     const githuburl = `https://shoozle.github.io/smurtbirds/Birds/thumbs/${name}${images[0]}.JPG`;
 
     return (
