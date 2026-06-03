@@ -26,7 +26,7 @@ const Gallery = () => {
 
 
     const allBirds = birddata.map((bird) => (
-        <Bird onClick={() => clickHandler(bird)} name={bird.name} summary={bird.summary} images={bird.images} date={bird.date} />
+        <Bird onClick={() => clickHandler(bird)} name={bird.name} images={bird.images} />
     ))
 
     return (

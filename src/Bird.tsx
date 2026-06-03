@@ -1,12 +1,10 @@
 interface BirdProps {
     onClick?: () => void;
     name: string;
-    summary: string;
     images: string[];
-    date: string;
 }
 
-function Bird({ onClick, name, summary, images, date }: BirdProps) {
+function Bird({ onClick, name, images }: BirdProps) {
 
     const thumburl = `/Birds/thumbs/${name}${images[0]}.JPG`;
 
