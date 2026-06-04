@@ -9,7 +9,7 @@ interface BirdProps {
     date: string;
 }
 
-function BirdPanel({ onClick, name, summary, images, date }: BirdProps) {
+function BirdPanel({ onClick, name, summary, images }: BirdProps) {
 
     const [activeImage, SetActiveImage] = useState(0);
 
@@ -25,7 +25,6 @@ function BirdPanel({ onClick, name, summary, images, date }: BirdProps) {
                 <div className="order-first text-center max-w-6xl mx-auto">
                     <h1>{name}</h1>
                     <h1>{summary}</h1>
-                    <h1>{date}</h1>
                 </div>
             </div>
         </>
