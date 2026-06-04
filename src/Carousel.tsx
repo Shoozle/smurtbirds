@@ -12,7 +12,7 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
     const [loaded, setLoaded] = useState(false);
 
     const loadingSpinner = (
-        <div className="absolute grid grid-cols-1 gap-4 text-white rounded-lg p-4 max-w-8xl bg-gray-800/90">
+        <div className="absolute grid grid-cols-1 gap-4 text-white rounded-lg p-4 max-w-8xl bg-gray-800/90 mx-auto top-1/2 transform -translate-y-1/2">
             <div className="flex items-center justify-center h-full">
                 <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-gray-900"></div>
             </div>
