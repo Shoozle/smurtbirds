@@ -15,8 +15,8 @@ function BirdPanel({ onClick, name, summary, images, date }: BirdProps) {
 
     return (
         <div className="absolute top-0 left-0 w-full h-full bg-gray-900/90 flex flex-col items-center justify-center gap-4 p-4 text-white">
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 text-gray-500 mx-auto rounded-lg p-4 w-full max-w-2xl bg-gray-800/90">
-                <div>
+            <div className="grid grid-cols-3 gap-4 text-gray-500 rounded-lg p-4 max-w-7xl bg-gray-800/90">
+                <div className="col-span-2">
                     <Carousel name={name} images={images} activeImage={activeImage} setActiveImage={SetActiveImage} />
                 </div>
                 <div>
