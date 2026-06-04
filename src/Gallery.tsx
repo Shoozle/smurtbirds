@@ -18,7 +18,6 @@ const Gallery = () => {
     const clickHandler = (bird: BirdData) => {
         SetActiveBird(bird);
         SetViewingBird(true);
-        console.log(bird);
     }
 
     const allBirds = birddata.map((bird) => (
@@ -28,7 +27,9 @@ const Gallery = () => {
     return (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 text-gray-500 mx-auto">
             {allBirds}
-            {viewingBird && activeBird && <BirdPanel onClick={() => SetViewingBird(false)} name={activeBird.name} summary={activeBird.summary} images={activeBird.images} date={activeBird.date} />}
+            {viewingBird &&
+                activeBird &&
+                <BirdPanel onClick={() => SetViewingBird(false)} name={activeBird.name} summary={activeBird.summary} images={activeBird.images} date={activeBird.date} />}
         </div>
     )
 }

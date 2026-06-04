@@ -1,5 +1,5 @@
 interface BirdProps {
-    onClick?: () => void;
+    onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
     name: string;
     images: string[];
 }
