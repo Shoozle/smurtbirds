@@ -18,6 +18,11 @@ const birddata = [
         name: `Jay`,
         summary: `A shy member of the Corvidae family. Perhaps the most colourful corvid. I remember seeing what I thought was 2 woodpigeons in the distance but then as I got closer I thought "hmm, something is different" and then it flew behind a hedge. So I stalked it for a while and it kept hopping away so I could only photograph it from behind. A lovely old lady walking her dog asked me what I saw and I guessed right that it was a Jay!`,
         images: ["1", "2", "3"],
+    },
+    {
+        name: `Little Egret`,
+        summary: `One pretty bird that loves to keep its distance. May often see it stalking fish in water. Sometimes looks a bit like Doc Brown from Back to the Future. Would love to see a different kind of Egret one day but it's looking less likely, the Cattle Egret especially is really colourful.`,
+        images: ["1", "2", "3", "4", "5"],
     }
 ]
 
