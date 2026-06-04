@@ -3,8 +3,6 @@ import BirdPanel from "./Birdpanel";
 import birddata from "./api/birddata";
 import { useState } from "react";
 
-
-
 type BirdData = {
     name: string;
     summary: string;
@@ -23,10 +21,8 @@ const Gallery = () => {
         console.log(bird);
     }
 
-
-
     const allBirds = birddata.map((bird) => (
-        <Bird onClick={() => clickHandler(bird)} name={bird.name} images={bird.images} />
+        <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} images={bird.images} />
     ))
 
     return (
