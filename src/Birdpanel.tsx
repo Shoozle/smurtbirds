@@ -6,7 +6,6 @@ interface BirdProps {
     name: string;
     summary: string;
     images: string[];
-    date: string;
 }
 
 function BirdPanel({ onClick, name, summary, images }: BirdProps) {
