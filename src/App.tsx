@@ -3,7 +3,7 @@ import Gallery from './Gallery'
 function App() {
 
   return (
-    <div className="mx-auto max-w-[1960px] p-4">
+    <div className="bg-black antialiased">
       <Gallery />
     </div>
   )

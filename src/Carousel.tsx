@@ -22,21 +22,21 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
                     {activeImage > 0 && (
                         <button
                             className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
-                            bg-gradient-to-r from-gray-900/60 to-transparent ease-in-out duration-200"
+                            bg-gradient-to-r from-gray-900/50 to-transparent ease-in-out duration-200"
                             onClick={() => setActiveImage(Math.max(0, activeImage - 1))}>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-16">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-12">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                             </svg>
                         </button>)}
                     {!loaded && loadingSpinner}
-                    <img src={`Birds/${name}${images[activeImage]}.JPG`} alt={name} onLoad={() => setLoaded(true)} className="shadow-xl" />
+                    <img src={`Birds/${name}${images[activeImage]}.JPG`} alt={name} onLoad={() => setLoaded(true)} className="w-full h-full" />
                     {activeImage < images.length - 1 && (
                         <button
                             className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
-                            bg-gradient-to-l from-gray-900/60 to-transparent ease-in-out duration-200"
+                            bg-gradient-to-l from-gray-900/50 to-transparent ease-in-out duration-200"
                             onClick={() => setActiveImage(Math.min(images.length - 1, activeImage + 1))}>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-16">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-12">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                             </svg>
                         </button>)}
                 </div>

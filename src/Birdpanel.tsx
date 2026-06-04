@@ -14,16 +14,16 @@ function BirdPanel({ onClick, name, summary, images }: BirdProps) {
 
     return (
         <>
-            <div onClick={onClick} className="absolute top-0 left-0 w-full h-full bg-gray-900/90 flex flex-col items-center justify-center gap-4 p-4 text-white">
+            <div id="lightbox" onClick={onClick} className="absolute top-0 left-0 w-screen h-screen bg-gray-900/80 cursor-zoom-out backdrop-blur-sm">
 
             </div>
-            <div className="absolute grid grid-cols-1 gap-4 text-white rounded-lg p-4 max-w-8xl bg-gray-800/90 mx-auto m-top-1/2 transform translate-y-1/4">
-                <div className="col-span-2">
+            <div id="bird-panel" className="absolute grid sm:grid-cols-1 md:grid-cols-3 max-w-[1920px] bg-gray-900/90 backdrop-blur-sm rounded-lg">
+                <div className="sm:col-span-1 md:col-span-2">
                     <Carousel name={name} images={images} activeImage={activeImage} setActiveImage={SetActiveImage} />
                 </div>
-                <div className="order-first text-center max-w-6xl mx-auto">
-                    <h1>{name}</h1>
-                    <h1>{summary}</h1>
+                <div className="order-last text-center max-w-6xl mx-auto text-white pb-8 pt-8 px-6">
+                    <h1 className="text-2xl mb-8 font-bold">{name}</h1>
+                    <p className="text-lg">{summary}</p>
                 </div>
             </div>
         </>
