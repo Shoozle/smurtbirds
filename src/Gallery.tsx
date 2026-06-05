@@ -28,7 +28,12 @@ const Gallery = () => {
             {allBirds}
             {viewingBird &&
                 activeBird &&
-                <BirdPanel onClick={() => SetViewingBird(false)} name={activeBird.name} summary={activeBird.summary} images={activeBird.images} />}
+                <BirdPanel
+                    onClick={() => SetViewingBird(false)}
+                    name={activeBird.name}
+                    summary={activeBird.summary}
+                    images={activeBird.images}
+                />}
         </div>
     )
 }
