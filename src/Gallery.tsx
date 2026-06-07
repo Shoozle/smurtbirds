@@ -23,9 +23,8 @@ const Gallery = () => {
         <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} images={bird.images} />
     ))
 
-    const closeWindow = (e: KeyboardEvent) => {
-        e.key === '23' ? SetViewingBird(false) : null;
-
+    const handleKeyPress = (e: KeyboardEvent) => {
+        console.log(e)
     }
 
     return (
@@ -34,8 +33,9 @@ const Gallery = () => {
             {viewingBird &&
                 activeBird &&
                 <BirdPanel
+                    tabIndex="1"
                     onClick={() => SetViewingBird(false)}
-                    onKeyDown={(e: KeyboardEvent) => closeWindow(e)}
+                    onKeyDown={handleKeyPress}
                     name={activeBird.name}
                     summary={activeBird.summary}
                     images={activeBird.images}
