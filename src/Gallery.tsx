@@ -1,7 +1,7 @@
 import Bird from "./Bird";
 import BirdPanel from "./Birdpanel";
 import birddata from "./api/birddata";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type BirdData = {
     name: string;
@@ -23,6 +23,10 @@ const Gallery = () => {
         <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} images={bird.images} />
     ))
 
+    const closeWindow = (e: KeyboardEvent) => {
+        console.log('Esc pressed')
+    }
+
     return (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 text-gray-500 mx-auto">
             {allBirds}
@@ -30,6 +34,7 @@ const Gallery = () => {
                 activeBird &&
                 <BirdPanel
                     onClick={() => SetViewingBird(false)}
+                    onKeyDown={(e: KeyboardEvent) => closeWindow(e)}
                     name={activeBird.name}
                     summary={activeBird.summary}
                     images={activeBird.images}
