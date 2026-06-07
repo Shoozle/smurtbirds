@@ -1,7 +1,7 @@
 import Bird from "./Bird";
 import BirdPanel from "./Birdpanel";
 import birddata from "./api/birddata";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 type BirdData = {
     name: string;
@@ -24,7 +24,8 @@ const Gallery = () => {
     ))
 
     const closeWindow = (e: KeyboardEvent) => {
-        console.log('Esc pressed')
+        e.key === '23' ? SetViewingBird(false) : null;
+
     }
 
     return (
