@@ -1,7 +1,7 @@
 import Bird from "./Bird";
 import BirdPanel from "./Birdpanel";
 import birddata from "./api/birddata";
-import { useState } from "react";
+import { act, useState } from "react";
 
 type BirdData = {
     name: string;
@@ -41,6 +41,8 @@ const Gallery = () => {
                     name={activeBird.name}
                     summary={activeBird.summary}
                     images={activeBird.images}
+                    date={activeBird.date}
+                    location={activeBird.location}
                 />}
         </div>
     )
