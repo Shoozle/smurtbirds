@@ -7,6 +7,8 @@ type BirdData = {
     name: string;
     summary: string;
     images: string[];
+    date: string;
+    location: string;
 };
 
 const Gallery = () => {
