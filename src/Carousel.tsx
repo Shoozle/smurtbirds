@@ -29,7 +29,7 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
                             </svg>
                         </button>)}
                     {!loaded && loadingSpinner}
-                    <img src={`Birds/${name}${images[activeImage]}.JPG`} alt={name} onLoad={() => setLoaded(true)} className="w-full h-full" />
+                    <img src={`Birds/${name}${images[activeImage]}.JPG`} loading="lazy" alt={name} onLoad={() => setLoaded(true)} className="w-full h-full" />
                     {activeImage < images.length - 1 && (
                         <button
                             className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
