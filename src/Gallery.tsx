@@ -1,7 +1,7 @@
 import Bird from "./Bird";
 import BirdPanel from "./Birdpanel";
 import birddata from "./api/birddata";
-import { act, useState } from "react";
+import { useState } from "react";
 
 type BirdData = {
     name: string;
