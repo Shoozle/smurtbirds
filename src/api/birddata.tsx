@@ -500,7 +500,7 @@ const birddata = [
     }, {
         name: `Woodpigeon`,
         summary: `There's something about the woodpigeon I like! It's like a pigeon that is dressed for a gala but too cheap to afford a nice suit. I love their twit twoo twoo twit calls. And they are often quite chunky looking which I also like. Big bird gotta eat!`,
-        images: ["1", "2", "3", "4", "5"],
+        images: ["1", "2", "3", "4", "5", "6", "7", "8"],
         date: `29/04/2026`,
         location: `Thursaston`,
     }, {
