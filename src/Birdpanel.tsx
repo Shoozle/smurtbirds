@@ -28,7 +28,6 @@ function BirdPanel({ onClick, onKeyDown, name, summary, images, location, date }
                     <Carousel name={name} images={images} activeImage={activeImage} setActiveImage={SetActiveImage} />
                 </div>
                 <div className="order-last relative flex flex-col max-w-6xl mx-auto text-white pb-8 pt-8 px-6">
-
                     <h1 className="text-2xl mb-8 font-bold">{name}</h1>
                     <p className="text-lg mb-auto">{summary}</p>
                     <p className="text-lg">Favourite photo was taken in {location} on {date}</p>
