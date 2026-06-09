@@ -494,7 +494,7 @@ const birddata = [
     }, {
         name: `Willow Warbler`,
         summary: `Looks like a Chiffchaff, but sounds nothing like it. I had a lot of difficulty finding them despite my phone app alerting me of them aplenty. The day I finally got one, it was incredibly windy but it held it's ground on a stick and posed for me for a good while. Thanks birdy!`,
-        images: ["1", "2"],
+        images: ["1"],
         date: `11/04/2026`,
         location: `Wigan`,
     }, {
