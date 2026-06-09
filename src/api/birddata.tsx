@@ -337,6 +337,13 @@ const birddata = [
         location: `Marshside`,
     },
     {
+        name: `Pink-footed Goose`,
+        summary: `Can often see flocks of them migrating over Liverpool. They love to nest together in the UK during the Winter. Caught a photo of them at the end of the year thinking it was just Greylag Geese but no, turns out it was pretty cool. Now I constantly look out for them in flocks at marshes.`,
+        images: ["1"],
+        date: `30/12/2025`,
+        location: `Heswall Fields`,
+    },
+    {
         name: `Pochard`,
         summary: `An unremarkable duck. Has a bit of a brown head which you can just about make out in the photo. The first time I got a photo of one, it was in a group and I could not make it out and only learned I took a photo of a Pochard after I got back. `,
         images: ["1"],
