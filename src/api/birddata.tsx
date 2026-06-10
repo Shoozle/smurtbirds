@@ -501,7 +501,7 @@ const birddata = [
         location: `Holyhead`,
     }, {
         name: `Wigeon`,
-        summary: `A brown headed duck with a white strip going along it, that helps separate it from a pochard. Not much to say other than, it's yet another duck. There are too many ducks. `,
+        summary: `A brown headed duck with a white strip2 going along it, that helps separate it from a pochard. Not much to say other than, it's yet another duck. There are too many ducks. `,
         images: ["1"],
         date: `22/02/2026`,
         location: `Marshside`,
