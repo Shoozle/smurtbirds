@@ -44,7 +44,7 @@ const birddata = [
     }, {
         name: `Buzzard`,
         summary: `Huge bird I mostly see in the air far away. In 2025, I was very lucky to get a photo of one that landed nearby and spoke to an old man about it who asked me if I worked for Naturewatch and said it was a Peregrine Falcon. Wrexham was quite disappointing bird wise as I got lost easily so glad I got this photo.`,
-        images: ["1", "2"],
+        images: ["1", "2", "3"],
         date: `10/05/2026`,
         location: `Wrexham`,
     }, {
@@ -170,7 +170,7 @@ const birddata = [
     }, {
         name: `Cormorant`,
         summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in Asian, they are used to catch fish a rope around their neck. Poor birds!`,
-        images: ["1", "2", "3", "4"],
+        images: ["1", "2", "3"],
         date: `11/04/2026`,
         location: `Wigan`,
     }, {
@@ -388,7 +388,7 @@ const birddata = [
     }, {
         name: `Ringed Plover`,
         summary: `Hey, it's that bird from my RSPB Membership guest card. So it was nice to photograph one of them for a reason. It was difficult to photo it back in Hilbre Island as it flew off very easily and was behind some awful deep wet sand that almost caused me to lose my shoe.`,
-        images: ["1", "2"],
+        images: ["1"],
         date: `17/05/2026`,
         location: `Hilbre Island`,
     }, {
@@ -399,7 +399,7 @@ const birddata = [
         location: `Birkenhead Park`,
     }, {
         name: `Rock Pipit`,
-        summary: `A pipit!? Ahhhhh! Okay but this one is quite easy to tell apart from the others. It has very dark legs. And of course it likes to hang out on rocks, hence the name. I think I got lucky to see it at Hilbre Island. Same day I saw it, a Japanese woman asked me where are the sales, I met up again with her later and she was so happy she saw them!`,
+        summary: `A pipit!? Ahhhhh! Okay but this one is quite easy to tell apart from the others. It has very dark legs. And of course it likes to hang out on rocks, hence the name. I think I got lucky to see it at Hilbre Island. Same day I saw it, a Japanese woman asked me where are the seals, I met up again with her later and she was so happy she saw them!`,
         images: ["1", "2"],
         date: `17/05/2026`,
         location: `Hilbre Island`,
@@ -442,7 +442,7 @@ const birddata = [
     }, {
         name: `Shoveler`,
         summary: `Now this, is one grumpy looking duck. Has a really long beak that is so long, it looks painful, and I often feel that way when I see old men with large noses. Surely it must hurt?`,
-        images: ["1", "2"],
+        images: ["1", "2", "3"],
         date: `22/02/2026`,
         location: `Marshside`,
     }, {
