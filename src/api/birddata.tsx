@@ -343,13 +343,14 @@ const birddata = [
         date: `30/12/2025`,
         location: `Heswall Fields`,
     },
+    // {
+    //     name: `Pochard`,
+    //     summary: `An unremarkable duck. Has a bit of a brown head which you can just about make out in the photo. The first time I got a photo of one, it was in a group and I could not make it out and only learned I took a photo of a Pochard after I got back. `,
+    //     images: ["1"],
+    //     date: `07/03/2026`,
+    //     location: `Silverdale`,
+    // }, 
     {
-        name: `Pochard`,
-        summary: `An unremarkable duck. Has a bit of a brown head which you can just about make out in the photo. The first time I got a photo of one, it was in a group and I could not make it out and only learned I took a photo of a Pochard after I got back. `,
-        images: ["1"],
-        date: `07/03/2026`,
-        location: `Silverdale`,
-    }, {
         name: `Red Breasted Merganser`,
         summary: `Only ever seen a pair of these once so I wish the photos turned out better but they were so far away. I was alone on a cliff edge in Silverdale just watching them repeatedly dive for food, it was the most at peace I have ever felt. They mate for life and give their partner gifts and dance for them. They are just like us but with more hair than me.`,
         images: ["1",],
@@ -411,7 +412,7 @@ const birddata = [
         location: `Bangor`,
     }, {
         name: `Turnstone`,
-        summary: `I love this tiny bird. When I started walking along the promenade after my QA job, I would frequently see these and wonder what they were. Now I know! Cute name. Looks a bit like a dunline but lacks the black on the belly, hence why I think dunlins are cuter. Only found alongside our coasts and usually only during the Winter.`,
+        summary: `I love this tiny bird and it's full name is Ruddy Turnstone, which sounds a bit like a curse word. When I started walking along the promenade after my QA job, I would frequently see these and wonder what they were. Now I know! Cute name. Looks a bit like a dunline but lacks the black on the belly, hence why I think dunlins are cuter. Only found alongside our coasts and usually only during the Winter.`,
         images: ["1"],
         date: `25/01/2026`,
         location: `West Kirby`,
