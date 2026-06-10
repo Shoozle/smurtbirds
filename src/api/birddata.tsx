@@ -86,7 +86,7 @@ const birddata = [
     }, {
         name: `Common Whitethroat`,
         summary: `Originally I didn't know there was two types of Whitethroat but then this one looked different to my other and I learned thanks to the RSPB that there was both Common and Lesser. Summer visitor so here between April and October. Very noisy and is named after the white throat it has.`,
-        images: ["1", "2", "3"],
+        images: ["1", "2"],
         date: `23/05/2026`,
         location: `Thursaston`,
     }, {
@@ -170,7 +170,7 @@ const birddata = [
     }, {
         name: `Cormorant`,
         summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in Asian, they are used to catch fish a rope around their neck. Poor birds!`,
-        images: ["1", "2", "3"],
+        images: ["1", "2", "3", "4"],
         date: `11/04/2026`,
         location: `Wigan`,
     }, {
@@ -514,7 +514,7 @@ const birddata = [
     }, {
         name: `Woodpigeon`,
         summary: `There's something about the woodpigeon I like! It's like a pigeon that is dressed for a gala but too cheap to afford a nice suit. I love their twit twoo twoo twit calls. And they are often quite chunky looking which I also like. Big bird gotta eat!`,
-        images: ["1", "2", "3", "4", "5", "6", "7", "8"],
+        images: ["1", "2", "3", "4", "5"],
         date: `29/04/2026`,
         location: `Thursaston`,
     }, {
