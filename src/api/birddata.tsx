@@ -170,7 +170,7 @@ const birddata = [
     }, {
         name: `Cormorant`,
         summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in Asian, they are used to catch fish a rope around their neck. Poor birds!`,
-        images: ["1", "2", "3", "4", "5"],
+        images: ["1", "2", "3"],
         date: `11/04/2026`,
         location: `Wigan`,
     }, {
@@ -254,7 +254,7 @@ const birddata = [
     }, {
         name: `Lesser Whitethroat`,
         summary: `First time seeing one of these loud small birds was after I walked past a bush and saw it to my left. I quickly got out my camera but of course it flew off. I gave up! Then as I was leaving Speke, I was about to put my camera away but then another appeared! I was able to get a decent photo before a nearby dog scared it off.`,
-        images: ["1"],
+        images: ["1", "2"],
         date: `28/04/2026`,
         location: `Speke and Garston Coastal Reserve`,
     }, {
