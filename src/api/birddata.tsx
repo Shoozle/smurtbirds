@@ -85,7 +85,7 @@ const birddata = [
         location: `Liverpool to Leeds Canal`,
     }, {
         name: `Common Whitethroat`,
-        summary: `Originally I didn't know there was two types of Whitethroat but then this one looked different to my other and I learned thanks to the RSPB that there was both Common and Lesser. Summer visitor so here between April and October. Very noisy and is named after the white throat it has.`,
+        summary: `Originally I didn't know there was two types of Whitethroat but then this one looked different to my other and I learned thanks to the RSPB book that there was both Common and Lesser. Summer visitor so here between April and October. Very noisy and is named after the white throat it has.`,
         images: ["1", "2"],
         date: `23/05/2026`,
         location: `Thursaston`,
@@ -453,7 +453,7 @@ const birddata = [
         location: `Holyhead`,
     }, {
         name: `Song Thrush`,
-        summary: `A bird that when I first heard it, I was so amazed by the song I didn't want to possibly scare it off. So as I turned a corner to photo it, it flew off, but landed in a much better spot. That said, is often hard to find as they like to hide deep into trees.`,
+        summary: `A bird that when I first heard it, I was so amazed by the song I didn't want to possibly scare it off. So as I turned a corner to photo it, it flew off, but landed in a much better spot. That said, is often hard to find as they like to hide deep into trees. I visibly cannot tell the difference between this and a Mistle Thrush`,
         images: ["1", "2"],
         date: `31/01/2026`,
         location: `Bangor`,
