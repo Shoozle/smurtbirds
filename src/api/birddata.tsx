@@ -343,13 +343,6 @@ const birddata = [
         date: `30/12/2025`,
         location: `Heswall Fields`,
     },
-    // {
-    //     name: `Pochard`,
-    //     summary: `An unremarkable duck. Has a bit of a brown head which you can just about make out in the photo. The first time I got a photo of one, it was in a group and I could not make it out and only learned I took a photo of a Pochard after I got back. `,
-    //     images: ["1"],
-    //     date: `07/03/2026`,
-    //     location: `Silverdale`,
-    // }, 
     {
         name: `Red Breasted Merganser`,
         summary: `Only ever seen a pair of these once so I wish the photos turned out better but they were so far away. I was alone on a cliff edge in Silverdale just watching them repeatedly dive for food, it was the most at peace I have ever felt. They mate for life and give their partner gifts and dance for them. They are just like us but with more hair than me.`,
@@ -502,7 +495,7 @@ const birddata = [
         location: `Holyhead`,
     }, {
         name: `Wigeon`,
-        summary: `A brown headed duck with a white strip2 going along it, that helps separate it from a pochard. Not much to say other than, it's yet another duck. There are too many ducks. `,
+        summary: `A brown headed duck with a white stripe going along it, that helps separate it from a pochard. Not much to say other than, it's yet another duck. There are too many ducks. `,
         images: ["1"],
         date: `22/02/2026`,
         location: `Marshside`,
