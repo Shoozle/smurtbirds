@@ -169,7 +169,7 @@ const birddata = [
         location: `Marshside`,
     }, {
         name: `Cormorant`,
-        summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in Asian, they are used to catch fish a rope around their neck. Poor birds!`,
+        summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in parts of Asia, they are used to catch fish with a rope around their neck, becoming unable to swallow the fish and spit it back up on the boat. Poor birds!`,
         images: ["1", "2", "3"],
         date: `11/04/2026`,
         location: `Wigan`,
@@ -187,7 +187,7 @@ const birddata = [
         location: `Royden Park`,
     }, {
         name: `Great Tit`,
-        summary: `A Great Smal Thing is what the name translates as. The males have a 'tie' going down their chest whereas the females have a very thin line. The thicker the tie, the more attracted to females, apparently...`,
+        summary: `A Great Small Thing is what the name translates as. The males have a 'tie' going down their chest whereas the females have a very thin line. The thicker the tie, the more attractive to females, apparently...`,
         images: ["1", "2"],
         date: `10/01/2026`,
         location: `Rimrose Valley Country Park`,
@@ -199,25 +199,25 @@ const birddata = [
         location: `West Kirby`,
     }, {
         name: `Greenfinch`,
-        summary: `Very bright green during the summar and quite sociable with a more nasty call compared to the Goldfinch. Sadly due to the rise in trichomonosis and how easily it spreads, their numbers are declining.`,
+        summary: `Very bright green during the summar and quite sociable with a more nasty call compared to the Goldfinch. Sadly due to the rise in trichomonosis and how easily it spreads, their numbers are declining. Clean your bird feeders and try not to use trays.`,
         images: ["1", "2"],
         date: `14/02/2026`,
         location: `Thursaston`,
     }, {
         name: `Grey Heron`,
-        summary: `I first saw one back in 2025 above me along the Liverpool to Leeds Canal and I thought it was gonna drop down and kill me. Since then, they've become one of my favourite birds to spot.`,
+        summary: `I first saw one back in 2025 above me along the Liverpool to Leeds Canal and I thought it was gonna drop down and kill me, flashbacks to Elden Ring probably. Since then, they've become one of my favourite birds to spot. I saw a couple in Tipton that were very loud as they were gathering for a nest.`,
         images: ["1", "2", "3", "4", "5"],
         date: `10/01/2026`,
         location: `Liverpool to Leeds Canal`,
     }, {
         name: `Greylag Goose`,
-        summary: `Common goose with a weird mouth and loves to hiss. Often I think they're Pink Footed Geese and get them mixed up easily during the Winter`,
+        summary: `Common goose with a weird mouth and loves to hiss. Often I think they're Pink Footed Geese and get them mixed up easily during the Winter.`,
         images: ["1", "2"],
         date: `22/02/2026`,
         location: `Marshside`,
     }, {
         name: `Guillemot`,
-        summary: `A bird I first heard as I needed to pee near the breakwater at Holyhead. I heard a yelp from the water, looked around, didn't see nothing for a while but then it showed! Lovely bird.`,
+        summary: `A bird I first heard as I needed to pee near the breakwater at Holyhead. I heard a yelp from the water, looked around, didn't see nothing for a while but then it showed! I thought it was drowning, haha. They become flightless after breeding due to moulting for roughly 1-2 months. `,
         images: ["1"],
         date: `18/04/2026`,
         location: `Holyhead`,
