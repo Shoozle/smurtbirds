@@ -23,7 +23,6 @@ function BirdPanel({ onClick, onKeyDown, name, summary, images, location, date }
             </div>
 
             <div className="z-3 fixed top-1/2 left-1/2 mt-1/2 ml-1/2 -translate-y-1/2 -translate-x-1/2 grid sm:grid-cols-1 w-full md:grid-cols-1 lg:grid-cols-3 max-w-[1600px] bg-gray-900/90 backdrop-blur-sm rounded-lg overflow-hidden">
-
                 <div className="sm:col-span-1 md:col-span-2">
                     <Carousel name={name} images={images} activeImage={activeImage} setActiveImage={SetActiveImage} />
                 </div>

@@ -12,7 +12,7 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
     const [loaded, setLoaded] = useState(false);
 
     const loadingSpinner = (
-        <div className="absolute top-0 left-0 bg-blue-500/10 w-full h-100 animate-pulse text-white">
+        <div className="absolute z-4 top-0 left-0 bg-blue-500/10 w-full h-100 animate-pulse text-white">
 
         </div>
     );
@@ -31,7 +31,7 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
                             </svg>
                         </button>)}
                     {!loaded && loadingSpinner}
-                    <img src={`Birds/${name}${images[activeImage]}.JPG`} loading="lazy" alt={name} onLoad={() => setLoaded(true)} className="w-full h-full" />
+                    <img src={`Birds/${name}${images[activeImage]}.JPG`} loading="lazy" alt={name} onLoad={() => setLoaded(true)} className="w-full h-full z-5 h-full w-full" />
                     {activeImage < images.length - 1 && (
                         <button
                             className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
