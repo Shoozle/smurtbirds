@@ -12,7 +12,9 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
     const [loaded, setLoaded] = useState(false);
 
     const loadingSpinner = (
-        <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-gray-900 white"></div>
+        <div className="bg-blue-500/10 w-full h-100 animate-pulse text-white">
+
+        </div>
     );
 
     return (

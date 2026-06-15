@@ -56,7 +56,7 @@ const birddata = [
     }, {
         name: `Chaffinch`,
         summary: `A bird with a lovely song/call. A small amount of repetitive notes followed by a fancy flourish. The males have a lovely colour palette. Often difficult to see through the sticks of trees they perch high upon but at least the colours of the male makes it easier to spot.`,
-        images: ["1", "2", "3"],
+        images: ["1", "2", "3", "4", "5"],
         date: `02/05/2026`,
         location: `Tipton`,
     }, {
@@ -104,7 +104,7 @@ const birddata = [
     }, {
         name: `Curlew`,
         summary: `April 21st is World Curlew Day! A funny looking bird with a huge beak often seen on farms or coasts. Declining population though which is sad to hear.`,
-        images: ["1"],
+        images: ["1", "2"],
         date: `22/02/2026`,
         location: `Marshside`,
     }, {
@@ -236,7 +236,7 @@ const birddata = [
     }, {
         name: `Jackdaw`,
         summary: `I used to think these were just baby or smaller crows, but in the Summer, their colours separate them from other corvids easily. The bright blue eyes are a giveaway too.`,
-        images: ["1"],
+        images: ["1", "2"],
         date: `22/02/2026`,
         location: `Marshside`,
     }, {
@@ -551,7 +551,7 @@ const birddata = [
     }, {
         name: `Little Egret`,
         summary: `One pretty bird that loves to keep its distance. May often see it stalking fish in water. Sometimes looks a bit like Doc Brown from Back to the Future. Would love to see a different kind of Egret one day but it's looking less likely, the Cattle Egret especially is really colourful.`,
-        images: ["1", "2", "3", "4", "5", "6"],
+        images: ["1", "2", "3", "4", "5", "6", "7"],
         date: `17/01/2026`,
         location: `Lunt Meadows`,
     }
