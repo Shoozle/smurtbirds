@@ -11,15 +11,9 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
 
     const [loaded, setLoaded] = useState(false);
 
-    const loadingSpinner = (
-        <div className="absolute z-4 top-0 left-0 bg-blue-500/10 w-full h-100 animate-pulse text-white">
-
-        </div>
-    );
-
     return (
-        <div>
-            <div className="h-full">
+        <div className={!loaded ? "animate-pulse w-full h-full" : ""}>
+            <div className="h-full w-full">
                 <div className="relative rounded-base">
                     {activeImage > 0 && (
                         <button
@@ -30,7 +24,6 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                             </svg>
                         </button>)}
-                    {!loaded && loadingSpinner}
                     <img src={`Birds/${name}${images[activeImage]}.JPG`} loading="lazy" alt={name} onLoad={() => setLoaded(true)} className="w-full h-full z-5 h-full w-full" />
                     {activeImage < images.length - 1 && (
                         <button
