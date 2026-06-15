@@ -12,7 +12,7 @@ const Carousel = ({ name, images, activeImage, setActiveImage }: CarouselProps) 
     const [loaded, setLoaded] = useState(false);
 
     return (
-        <div className={!loaded ? "animate-pulse w-full h-full" : ""}>
+        <div>
             <div className="h-full w-full">
                 <div className="relative rounded-base">
                     {activeImage > 0 && (

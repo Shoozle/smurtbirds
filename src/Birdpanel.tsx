@@ -28,7 +28,7 @@ function BirdPanel({ onClick, onKeyDown, name, summary, images, location, date }
                 </div>
                 <div className=" order-last relative flex flex-col max-w-6xl mx-auto text-white pb-8 pt-8 px-6">
                     <button onClick={onClick} className="absolute right-0 top-0 margin-2 p-2 cursor-pointer text-2xl bold bg-blue-500/10">X</button>
-                    <h1 className="text-2xl mb-8 font-bold">{name}</h1>
+                    <h1 className="text-2xl mb-8 font-bold">The {name}</h1>
                     <p className="text-lg mb-auto">{summary}</p>
                     <p className="text-lg">Favourite photo was taken in {location} on {date}</p>
                 </div>
