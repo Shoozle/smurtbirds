@@ -171,8 +171,8 @@ const birddata = [
         name: `Cormorant`,
         summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in parts of Asia, they are used to catch fish with a rope around their neck, becoming unable to swallow the fish and spit it back up on the boat. Poor birds!`,
         images: ["1", "2", "3"],
-        date: `11/04/2026`,
-        location: `Wigan`,
+        date: `02/05/2026`,
+        location: `Tipton`,
     }, {
         name: `Great Crested Grebe`,
         summary: `Ah, the Bloodborne bird (cos of the hair reminding me of the Hunter's Hat). I love how they look. Once saw one pull a worm out of it's cloaca in Tipton and it never occurred to me that birds could get worms.`,
@@ -261,7 +261,7 @@ const birddata = [
         name: `Linnet`,
         summary: `Often I see a bird, dunno what it is, later when I get back and look at my photos I think "Oh, it's just another linnet". But they are quite nice birds. They look like they are covered in blood during breeding season as the front of the chest and top of their head becomes bright red.`,
         images: ["1", "2", "3", "4", "5"],
-        date: `17/01/2026`,
+        date: `06/04/2026`,
         location: `Hilbre Island`,
     }, {
         name: `Long-tailed Tit`,
