@@ -4,7 +4,7 @@ const birddata = [
         summary: `The bird from the RSPB logo! I have only ever seen it alone at the Marshside Nature Reserve in Southport on 2 different locations, and it's often very far away.`,
         images: ["1", "2"],
         date: `27/04/2026`,
-        location: `Marshside Nature Reserve`,
+        location: `Marshside`,
     }, {
         name: `Black Swan`,
         summary: `Visited a friend in London hoping to see some birds and despite the awful rain, I saw this celebrity. Had about 4 eggs, one slightly cracked. It kept bothering a Mute Swan to further build up the nest. Glad the trip was not wasted! Native to Australia but some escapees have successfully bred in UK, especially in Devon.`,
@@ -519,7 +519,7 @@ const birddata = [
         location: `Thursaston`,
     }, {
         name: `Lesser Black-backed Gull`,
-        summary: `A gull with yellow legs but is not a yellow-legged gull. Oh the humanity. That said, these are the most likely ones people see when spotting a gull with yellow legs. Was happy to get a photo of one perched on a rock in a natural looking area by water unlike the ones that fly around Liverpool`,
+        summary: `A gull with yellow legs but is not a yellow-legged gull. Oh the humanity. That said, these are the most likely ones people see when spotting a gull with yellow legs. Was happy to get a photo of one perched on a rock in a natural looking area by water unlike the ones that fly around Liverpool stealing my food.`,
         images: ["1", "2"],
         date: `11/04/2026`,
         location: `Horrock's Flash`,
