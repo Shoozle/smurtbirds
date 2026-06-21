@@ -28,7 +28,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
                         src={`Birds/${name}${activeImage}.JPG`}
                         loading="lazy"
                         alt={name}
-                        className="w-full h-full z-5 h-full w-full"
+                        className="w-full h-full z-5"
                     />
                     {activeImage < imageCount && (
                         <button
