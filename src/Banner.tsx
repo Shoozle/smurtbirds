@@ -11,6 +11,7 @@ function Banner() {
             <img src="/Banner.JPG" className="absolute object-cover w-full"></img>
             <img src="./Banner.JPG" className="absolute object-cover w-full"></img>
             <img src="./public/Banner.JPG" className="absolute object-cover w-full"></img> {/* words locally */}
+            <img src="./Birds/Banner.JPG" className="absolute object-cover w-full"></img>
             <div className="absolute top-0 left-0 text-white/90 w-full text-right text-2xl pt-1 text-shadow-lg/30">
                 <h2>Sean Murtagh</h2>
                 <h3>Amateur bird photographer</h3>
