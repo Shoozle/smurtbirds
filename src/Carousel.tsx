@@ -15,7 +15,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
         <div>
             <div className="h-full w-full">
                 <div className="relative rounded-base">
-                    {activeImage > 0 && (
+                    {activeImage > 1 && (
                         <button
                             className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
                             bg-gradient-to-r from-gray-900/50 to-transparent ease-in-out duration-200"
