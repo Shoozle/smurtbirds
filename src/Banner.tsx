@@ -3,7 +3,14 @@ function Banner() {
     return (
 
         <div className="order-1 row-span-2 min-h-100 relative rounded-lg shadow-lg border-2 overflow-hidden hover:shadow-2xl">
-            <img src="./Images/Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="./Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="./imgs/Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="/imgs/Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="imgs/Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="/Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="./Banner.JPG" className="absolute object-cover w-full"></img>
+            <img src="./public/Banner.JPG" className="absolute object-cover w-full"></img> {/* words locally */}
             <div className="absolute top-0 left-0 text-white/90 w-full text-right text-2xl pt-1 text-shadow-lg/30">
                 <h2>Sean Murtagh</h2>
                 <h3>Amateur bird photographer</h3>
