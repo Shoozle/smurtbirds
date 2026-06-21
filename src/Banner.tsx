@@ -4,7 +4,7 @@ function Banner() {
 
         <div className="order-1 row-span-2 min-h-100 relative rounded-lg shadow-lg border-2 overflow-hidden hover:shadow-2xl">
             <img src="./imgs/Banner.jpg" className="absolute object-cover w-full"></img>
-            <div className="absolute top-0 left-0 text-white/90 w-full text-right text-2xl pt-1 text-shadow-lg/30">
+            <div className="absolute top-0 left-0 text-white/90 w-full text-right text-2xl pt-1 text-shadow-lg/30 pr-2">
                 <h2>Sean Murtagh</h2>
                 <h3>Amateur bird photographer</h3>
                 <h3>Canon EOS R7</h3>

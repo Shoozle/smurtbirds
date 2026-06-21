@@ -7,7 +7,7 @@ import { useState } from "react";
 type BirdData = {
     name: string;
     summary: string;
-    images: string[];
+    imageCount: number;
     date: string;
     location: string;
 };
@@ -23,7 +23,7 @@ const Gallery = () => {
     }
 
     const allBirds = birddata.map((bird) => (
-        <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} images={bird.images} />
+        <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} />
     ))
 
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -42,7 +42,7 @@ const Gallery = () => {
                     onKeyDown={handleKeyPress}
                     name={activeBird.name}
                     summary={activeBird.summary}
-                    images={activeBird.images}
+                    imageCount={activeBird.imageCount}
                     date={activeBird.date}
                     location={activeBird.location}
                 />}

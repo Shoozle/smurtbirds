@@ -1,12 +1,11 @@
 interface BirdProps {
     onClick?: () => void;
     name: string;
-    images: string[];
 }
 
-function Bird({ onClick, name, images }: BirdProps) {
+function Bird({ onClick, name }: BirdProps) {
 
-    const localurl = `./Birds/thumbs/${name}${images[0]}.webp`;
+    const localurl = `./Birds/thumbs/${name}1.webp`;
 
     return (
 
