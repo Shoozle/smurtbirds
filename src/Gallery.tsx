@@ -10,6 +10,7 @@ type BirdData = {
     imageCount: number;
     date: string;
     location: string;
+    whatStatus: string;
 };
 
 const Gallery = () => {
@@ -22,16 +23,19 @@ const Gallery = () => {
         SetViewingBird(true);
     }
 
-    const allBirds = birddata.map((bird) => (
-        <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} />
-    ))
-
-    const handleKeyPress = (e: KeyboardEvent) => {
-        console.log(e)
+    const keyHandler = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        event.key === "Escape" ? SetViewingBird(false) : null;
     }
 
+    const allBirds = birddata.map((bird) => (
+        <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} whatStatus={bird.whatStatus} />
+    ))
+
     return (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 text-gray-500 mx-auto">
+        <div
+            onKeyDown={keyHandler}
+            tabIndex={0}
+            className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 text-gray-500 mx-auto">
             <Banner />
             {allBirds}
             {viewingBird &&
@@ -39,7 +43,6 @@ const Gallery = () => {
                 <BirdPanel
                     tabIndex="1"
                     onClick={() => SetViewingBird(false)}
-                    onKeyDown={handleKeyPress}
                     name={activeBird.name}
                     summary={activeBird.summary}
                     imageCount={activeBird.imageCount}
