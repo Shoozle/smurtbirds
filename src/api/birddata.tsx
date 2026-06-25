@@ -29,11 +29,11 @@ const birddata = [
         whatStatus: `nothing`,
     }, {
         name: `Black-headed Gull`,
-        summary: `A cute small gull but I hate the name. The black-head it's named for is only there during breeding season, otherwise it's more of an ink smudge. At least I can tell this gull apart from other gulls thanks to the red break.`,
-        imageCount: 2,
-        date: `05/01/2026`,
-        location: `West Kirby`,
-        whatStatus: `nothing`,
+        summary: `A cute small gull but I hate the name. The black-head it's named for is only there during breeding season, otherwise it's more of an ink smudge. And I would argue it's more brown than black. Add it to the list of bad bird names!`,
+        imageCount: 4,
+        date: `24/06/2026`,
+        location: `Birkenhead Pakr`,
+        whatStatus: `updated`,
     }, {
         name: `Black-tailed Godwit`,
         summary: `Large wader that in Summer have brighter orange chests. Sadly my photo was taken in Winter which is when they are the most common in the UK and also means it looks a bit drab. That said, was happy to get a photo of it at Southport`,
@@ -215,7 +215,7 @@ const birddata = [
         imageCount: 3,
         date: `24/05/2026`,
         location: `Royden Park`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Great Tit`,
         summary: `A Great Small Thing is what the name translates as. The males have a 'tie' going down their chest whereas the females have a very thin line. The thicker the tie, the more attractive to females, apparently...`,
@@ -324,17 +324,17 @@ const birddata = [
     }, {
         name: `Mallard`,
         summary: `A duck! A typical duck! I've seen some lovely white mallards with bright yellow beaks but for some reason never kept the photos. I love seeing breeding pairs and a mother duck with a bunch of little ducklings.`,
-        imageCount: 3,
+        imageCount: 4,
         date: `02/05/2026`,
         location: `Tipton`,
-        whatStatus: `nothing`,
+        whatStatus: `updated`,
     }, {
         name: `Mandarin Duck`,
         summary: `Was able to find these thanks to eBird that listed them in Arrowe Country Park as being aplenty. And for once, the site was right. I went there after work and there was so many of them and I never see them elsewhere.`,
         imageCount: 4,
         date: `31/03/2026`,
         location: `Arrowe Country Park`,
-        whatStatus: `nothing`,
+        whatStatus: `updated`,
     }, {
         name: `Meadow Pipit`,
         summary: `The most common pipit for me, at least I assume so as I can not tell the difference between any of them. A typical LBJ but if I see it on the grass, I assume it's a Meadow Pipit`,
@@ -532,7 +532,7 @@ const birddata = [
         imageCount: 3,
         date: `22/06/2026`,
         location: `Royden Park`,
-        whatStatus: `updated`
+        whatStatus: ``
     }, {
         name: `Starling`,
         summary: `Adorable bird that loves to hang out in car parks in groups like a bunch of teenagers. The iridescent feathers and the beak having 3 colours during breeding season which makes them a joy to photo. Have yet to see a murmuration but hope to one day.`,
@@ -623,7 +623,7 @@ const birddata = [
         imageCount: 5,
         date: `03/01/2026`,
         location: `Thursaston`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Blue Tit`,
         summary: `An absolutely cutie pie of a bird. Apparently the males with the bluest heads are the most likely to get the females. The word tit used to mean small thing which is why so many birds are called tits. They sync up their laying of eggs with the caterpillar season so if you see one with a caterpillar, you may be able to see it fly back to the nest.`,
