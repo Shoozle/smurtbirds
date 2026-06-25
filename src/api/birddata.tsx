@@ -18,7 +18,7 @@ const birddata = [
         summary: `Female is brown so I hate the name! Often seen in Winter on the ground flicking leaves around but in Spring, it loves to sing early in the morning and is the first heard during the 'Dawn chorus' Prominent ring around the eye helps distinguish it from other small brown birds.`,
         imageCount: 3,
         date: `11/05/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Barn Swallow`,
@@ -81,7 +81,7 @@ const birddata = [
         summary: `Got the name from the call it's makes which sounds a lot like "chiff, chaff" over and over. Likes to be very high atop trees which made them difficult to spot the first time I was hearing them. They are small and brown too which didn't help. Once you know the call, it's easy to know when you are near one.`,
         imageCount: 2,
         date: `06/04/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Coal Tit`,
@@ -102,7 +102,7 @@ const birddata = [
         summary: `Originally I didn't know there was two types of Whitethroat but then this one looked different to my other and I learned thanks to the RSPB book that there was both Common and Lesser. Summer visitor so here between April and October. Very noisy and is named after the white throat it has.`,
         imageCount: 2,
         date: `23/05/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Coot`,
@@ -135,10 +135,10 @@ const birddata = [
     }, {
         name: `Dunnock`,
         summary: `A small bird with a grey ring around the neck. Quiet, shy and spends most of the time on muddy paths similar to Blackbirds. The first time I saw one, it kept flying away from me and hiding in bushes back in the Winter. Often looks grumpy.`,
-        imageCount: 3,
-        date: `01/10/2026`,
-        location: `Rimrose Valley Country Park`,
-        whatStatus: `nothing`,
+        imageCount: 4,
+        date: `25/06/2026`,
+        location: `Thurstaston`,
+        whatStatus: `updated`,
     }, {
         name: `Egyptian Goose`,
         summary: `Saw it alone in Sheffield which was quite sad to see but made it quite special; then I go to London and there's 100s of them! Fancy looking goose compared to others. `,
@@ -158,7 +158,7 @@ const birddata = [
         summary: `UK's smallest bird that weighs the same as a 5p coin. I saw them aplenty when I first got my camera and now I never see them, gutted.`,
         imageCount: 1,
         date: `30/12/2025`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Gadwall`,
@@ -172,7 +172,7 @@ const birddata = [
         summary: `A very sociable bird with a warbly chirpy call. Lovely colours when lit up by the sun. The first photo I took of it was during the greyest UK weather I have ever witnessed.`,
         imageCount: 3,
         date: `11/05/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Goosander`,
@@ -186,7 +186,7 @@ const birddata = [
         summary: `A bird that scares easily, so easily I don't see it first, which it jumping and yelling scares me more than I scared it. That said, happy to at least get 3 in one shot even if it is awful.`,
         imageCount: 1,
         date: `17/01/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Great Black-backed Gull`,
@@ -235,7 +235,7 @@ const birddata = [
         summary: `Very bright green during the summar and quite sociable with a more nasty call compared to the Goldfinch. Sadly due to the rise in trichomonosis and how easily it spreads, their numbers are declining. Clean your bird feeders and try not to use trays.`,
         imageCount: 2,
         date: `14/02/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Grey Heron`,
@@ -306,7 +306,7 @@ const birddata = [
         imageCount: 5,
         date: `06/04/2026`,
         location: `Hilbre Island`,
-        whatStatus: `nothing`,
+        whatStatus: `updated`,
     }, {
         name: `Long-tailed Tit`,
         summary: `A bird I find very difficult to photo as they constantly keep moving. But thankfully they are sociable and talkative so at least you know where to look. They look a bit like flying teaspoons. `,
@@ -419,7 +419,7 @@ const birddata = [
         summary: `One of the first birds I started hoping to see when I was out in woodland at the start of the year. And thankfully I did see it. They have a red armpit which helps identify it from other thrushes, and they love to eat berries.`,
         imageCount: 1,
         date: `03/01/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Reed Bunting`,
@@ -594,14 +594,14 @@ const birddata = [
         summary: `There's something about the woodpigeon I like! It's like a pigeon that is dressed for a gala but too cheap to afford a nice suit. I love their twit twoo twoo twit calls. And they are often quite chunky looking which I also like. Big bird gotta eat!`,
         imageCount: 5,
         date: `29/04/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Wren`,
         summary: `An incredibly loud bird and especially for it's size. The human equivalent would be us making the sound of a foghorn. Difficult to spot these small brown birds but at least you can hear them.`,
         imageCount: 2,
         date: `11/05/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Lesser Black-backed Gull`,
@@ -622,22 +622,22 @@ const birddata = [
         summary: `One of my favourite birds to photograph as they are frequently on branches at chest height. We associate them a lot with Winter but that's mostly because other birds quiet down or migrate, so they are the last few left singing. They are quite territorial which makes them fitting as Britain's unofficial national bird.`,
         imageCount: 5,
         date: `03/01/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: ``,
     }, {
         name: `Blue Tit`,
         summary: `An absolutely cutie pie of a bird. Apparently the males with the bluest heads are the most likely to get the females. The word tit used to mean small thing which is why so many birds are called tits. They sync up their laying of eggs with the caterpillar season so if you see one with a caterpillar, you may be able to see it fly back to the nest.`,
         imageCount: 6,
         date: `11/05/2026`,
-        location: `Thursaston`,
+        location: `Thurstaston`,
         whatStatus: `nothing`,
     }, {
         name: `Jay`,
         summary: `A shy member of the Corvidae family. Perhaps the most colourful corvid. I remember seeing what I thought was 2 woodpigeons in the distance but then as I got closer I thought "hmm, something is different" and then it flew behind a hedge. So I stalked it for a while and it kept hopping away so I could only photograph it from behind. A lovely old lady walking her dog asked me what I saw and I guessed right that it was a Jay!`,
-        imageCount: 3,
+        imageCount: 4,
         date: `30/05/2026`,
-        location: `Thursaston`,
-        whatStatus: `nothing`,
+        location: `Thurstaston`,
+        whatStatus: `updated`,
     }, {
         name: `Little Egret`,
         summary: `One pretty bird that loves to keep its distance. May often see it stalking fish in water. Sometimes looks a bit like Doc Brown from Back to the Future. Would love to see a different kind of Egret one day but it's looking less likely, the Cattle Egret especially is really colourful.`,
