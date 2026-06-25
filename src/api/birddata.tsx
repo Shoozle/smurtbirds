@@ -32,7 +32,7 @@ const birddata = [
         summary: `A cute small gull but I hate the name. The black-head it's named for is only there during breeding season, otherwise it's more of an ink smudge. And I would argue it's more brown than black. Add it to the list of bad bird names!`,
         imageCount: 4,
         date: `24/06/2026`,
-        location: `Birkenhead Pakr`,
+        location: `Birkenhead Park`,
         whatStatus: `updated`,
     }, {
         name: `Black-tailed Godwit`,
