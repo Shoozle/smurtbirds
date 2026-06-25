@@ -330,7 +330,7 @@ const birddata = [
         whatStatus: `updated`,
     }, {
         name: `Mandarin Duck`,
-        summary: `Was able to find these thanks to eBird that listed them in Arrowe Country Park as being aplenty. And for once, the site was right. I went there after work and there was so many of them and I never see them elsewhere.`,
+        summary: `Was able to find these thanks to eBird that listed them in Arrowe Country Park as being aplenty. And for once, the site was right. I went there after work and there was so many of them and I never see them elsewhere. When I went back in June, there was no males. Where did they go!?`,
         imageCount: 4,
         date: `31/03/2026`,
         location: `Arrowe Country Park`,
