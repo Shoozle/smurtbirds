@@ -6,7 +6,7 @@ interface BirdProps {
 
 function Bird({ onClick, name, whatStatus }: BirdProps) {
 
-    const localurl = `./Birds/thumbs/${name}1.webp`;
+    const localurl = `./Birds/thumbs/${name}1.JPG`;
 
     return (
 

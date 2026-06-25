@@ -34,7 +34,7 @@ const Gallery = () => {
     return (
         <div
             onKeyDown={keyHandler}
-            tabIndex={0}
+            tabIndex={1}
             className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 text-gray-500 mx-auto">
             <Banner />
             {allBirds}
