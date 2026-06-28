@@ -10,7 +10,8 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
 
     return (
 
-        <div onClick={onClick} className={"relative rounded-lg shadow-lg border-2 overflow-hidden cursor-zoom-in hover:shadow-2xl min-h-50 " + (whatStatus === `updated` || whatStatus === `new` ? "order-2" : "order-3")}>
+        <div onClick={onClick} className={"relative rounded-lg shadow-lg border-2 overflow-hidden cursor-zoom-in hover:shadow-2xl min-h-50 " +
+            (whatStatus === `updated` ? "order-3" : whatStatus === `new` ? "order-2" : "order-4")}>
             <h2
                 className="absolute pointer-events-none z-1 text-white/90 w-full text-center font-bold text-3xl pt-1 text-shadow-lg/30">
                 {name}
@@ -23,6 +24,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
                 alt={name}
                 loading="lazy"
             />
+            {whatStatus === `new` ? <span className="absolute top-0 left-0 inline-flex h-10 w-10 animate-ping rounded-full bg-yellow-400 opacity-75"></span> : null}
         </div>
 
     )

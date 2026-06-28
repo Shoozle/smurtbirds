@@ -1,11 +1,11 @@
 const birddata = [
     {
         name: `Avocet`,
-        summary: `The bird from the RSPB logo! I have only ever seen it alone at the Marshside Nature Reserve in Southport on 2 different locations, and it's often very far away.`,
-        imageCount: 2,
+        summary: `The bird from the RSPB logo! In Marshside, they seem lonely. When I was at Parkgate, there was tonnes of them but even further away, I should really look into getting an extender. Cool looking distinct bird.`,
+        imageCount: 3,
         date: `27/04/2026`,
         location: `Marshside`,
-        whatStatus: `nothing`,
+        whatStatus: `updated`,
     }, {
         name: `Black Swan`,
         summary: `Visited a friend in London hoping to see some birds and despite the awful rain, I saw this celebrity. Had about 4 eggs, one slightly cracked. It kept bothering a Mute Swan to further build up the nest. Glad the trip was not wasted! Native to Australia but some escapees have successfully bred in UK, especially in Devon.`,
@@ -491,6 +491,14 @@ const birddata = [
         date: `11/04/2026`,
         location: `Wigan`,
         whatStatus: `nothing`,
+    },
+    {
+        name: `Sedge Warbler`,
+        summary: `Look at that bushy eyebrow. For months, this thing plagued me with its call before I finally spotted one out in the open at Parkgate. And then another. And then another. It's like a delayed bus. `,
+        imageCount: 3,
+        date: `28/06/2026`,
+        location: `Parkgate`,
+        whatStatus: `new`,
     }, {
         name: `Shag`,
         summary: `I hope this is a photo of a Shag. It was very far out into sea and I can't make out the colour features of the beak that a cormorant has. As a result, I sam saying this is a shag. Named for it's unkempt look, not cos it likes to fool around.`,
