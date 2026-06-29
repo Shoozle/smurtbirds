@@ -306,7 +306,7 @@ const birddata = [
         imageCount: 5,
         date: `06/04/2026`,
         location: `Hilbre Island`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Long-tailed Tit`,
         summary: `A bird I find very difficult to photo as they constantly keep moving. But thankfully they are sociable and talkative so at least you know where to look. They look a bit like flying teaspoons. `,
@@ -327,14 +327,14 @@ const birddata = [
         imageCount: 4,
         date: `02/05/2026`,
         location: `Tipton`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Mandarin Duck`,
         summary: `Was able to find these thanks to eBird that listed them in Arrowe Country Park as being aplenty. And for once, the site was right. I went there after work and there was so many of them and I never see them elsewhere. When I went back in June, there was no males. Where did they go!?`,
         imageCount: 4,
         date: `31/03/2026`,
         location: `Arrowe Country Park`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Meadow Pipit`,
         summary: `The most common pipit for me, at least I assume so as I can not tell the difference between any of them. A typical LBJ but if I see it on the grass, I assume it's a Meadow Pipit`,
@@ -363,6 +363,13 @@ const birddata = [
         date: `06/06/2026`,
         location: `Hyde Park`,
         whatStatus: `nothing`,
+    }, {
+        name: `Nuthatch`,
+        summary: `I first saw one when I was leaving the same park back in December but it was cold and my camera was put away. I can't believe it took almost 7 months to get another chance. Noisy bird that sometimes sounds like a siren and I constantly hear them but never see them. They have an iconic pose but sadly I've not seen them pose like that yet.`,
+        imageCount: 3,
+        date: `29/06/2026`,
+        location: `Royden Park`,
+        whatStatus: `new`,
     }, {
         name: `Oystercatcher`,
         summary: `Cool name for a bird! I really like their bright orange beaks and red eyes. Have yet to see them catch an oyster but they do love to spend the majority of time poking away in sand on our coasts.`,
@@ -645,7 +652,7 @@ const birddata = [
         imageCount: 4,
         date: `30/05/2026`,
         location: `Thurstaston`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Little Egret`,
         summary: `One pretty bird that loves to keep its distance. May often see it stalking fish in water. Sometimes looks a bit like Doc Brown from Back to the Future. Would love to see a different kind of Egret one day but it's looking less likely, the Cattle Egret especially is really colourful.`,
