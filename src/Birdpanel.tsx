@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Carousel from "./Carousel"
 
-interface BirdProps {
+interface BirdpanelProps {
     tabIndex: string;
     onClick?: () => void;
     onKeyDown?: (e: KeyboardEvent) => void;
@@ -12,7 +12,7 @@ interface BirdProps {
     date: string;
 }
 
-function BirdPanel({ onClick, onKeyDown, name, summary, imageCount, location, date }: BirdProps) {
+function BirdPanel({ onClick, onKeyDown, name, summary, imageCount, location, date }: BirdpanelProps) {
 
     const [activeImage, SetActiveImage] = useState(1);
 

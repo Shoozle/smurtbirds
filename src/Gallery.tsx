@@ -36,7 +36,7 @@ const Gallery = () => {
             onKeyDown={keyHandler}
             tabIndex={1}
             className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 text-gray-500 mx-auto">
-            <Banner />
+            <Banner totalBirds={birddata.length} />
             {allBirds}
             {viewingBird &&
                 activeBird &&

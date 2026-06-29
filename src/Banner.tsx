@@ -1,4 +1,8 @@
-function Banner() {
+interface BannerProps {
+    totalBirds: number
+};
+
+function Banner({ totalBirds }: BannerProps) {
 
     return (
 
@@ -9,6 +13,7 @@ function Banner() {
                 <h3>Amateur bird photographer</h3>
                 <h3>Canon EOS R7</h3>
                 <h3>Canon RF 100-500mm F4.5-7.1L Lens</h3>
+                <h3>{totalBirds} birds</h3>
             </div>
         </div >
     )
