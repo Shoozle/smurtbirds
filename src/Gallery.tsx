@@ -4,22 +4,13 @@ import BirdPanel from "./Birdpanel";
 import birddata from "./api/birddata";
 import { useState } from "react";
 
-type BirdData = {
-    name: string;
-    summary: string;
-    imageCount: number;
-    date: string;
-    location: string;
-    whatStatus: string;
-};
-
 const Gallery = () => {
 
-    const [activeBird, SetActiveBird] = useState<BirdData | null>(null);
+    const [activeBird, SetActiveBird] = useState(0);
     const [viewingBird, SetViewingBird] = useState(false);
 
-    const clickHandler = (bird: BirdData) => {
-        SetActiveBird(bird);
+    const clickHandler = (index: number) => {
+        SetActiveBird(index);
         SetViewingBird(true);
     }
 
@@ -27,8 +18,8 @@ const Gallery = () => {
         event.key === "Escape" ? SetViewingBird(false) : null;
     }
 
-    const allBirds = birddata.map((bird) => (
-        <Bird onClick={() => clickHandler(bird)} key={bird.name} name={bird.name} whatStatus={bird.whatStatus} />
+    const allBirds = birddata.map((bird, index) => (
+        <Bird onClick={() => clickHandler(index)} key={bird.name} name={bird.name} whatStatus={bird.whatStatus} />
     ))
 
     return (
@@ -39,15 +30,20 @@ const Gallery = () => {
             <Banner totalBirds={birddata.length} />
             {allBirds}
             {viewingBird &&
-                activeBird &&
+                activeBird !== undefined &&
                 <BirdPanel
                     tabIndex="1"
                     onClick={() => SetViewingBird(false)}
-                    name={activeBird.name}
-                    summary={activeBird.summary}
-                    imageCount={activeBird.imageCount}
-                    date={activeBird.date}
-                    location={activeBird.location}
+                    onPrevBird={() => SetActiveBird(activeBird - 1)}
+                    onNextBird={() => SetActiveBird(activeBird + 1)}
+                    name={birddata[activeBird].name}
+                    summary={birddata[activeBird].summary}
+                    imageCount={birddata[activeBird].imageCount}
+                    date={birddata[activeBird].date}
+                    location={birddata[activeBird].location}
+                    index={activeBird}
+                    nextBirdName={activeBird < birddata.length - 1 ? birddata[activeBird + 1].name : ''}
+                    prevBirdName={activeBird > 0 ? birddata[activeBird - 1].name : ''}
                 />}
         </div>
     )

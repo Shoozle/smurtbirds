@@ -1,5 +1,3 @@
-// import { useState } from "react";
-
 type CarouselProps = {
     name: string;
     imageCount: number;
@@ -9,12 +7,21 @@ type CarouselProps = {
 
 const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselProps) => {
 
-    // const [loaded, setLoaded] = useState(false);
+    const renderImg = () => {
+        return (
+            <img
+                src={`Birds/${name}${activeImage}.JPG`}
+                loading="lazy"
+                alt={name}
+                className="w-full h-full z-5"
+            />
+        )
+    }
 
     return (
         <div>
             <div className="h-full w-full">
-                <div className="relative rounded-base">
+                <div className="relative">
                     {activeImage > 1 && (
                         <button
                             className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
@@ -24,12 +31,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                             </svg>
                         </button>)}
-                    <img
-                        src={`Birds/${name}${activeImage}.JPG`}
-                        loading="lazy"
-                        alt={name}
-                        className="w-full h-full z-5"
-                    />
+                    {renderImg()}
                     {activeImage < imageCount && (
                         <button
                             className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100 h-full
