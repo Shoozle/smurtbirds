@@ -15,7 +15,7 @@ const birddata = [
         whatStatus: `nothing`,
     }, {
         name: `Blackbird`,
-        summary: `Female is brown so I hate the name! Often seen in Winter on the ground flicking leaves around but in Spring, it loves to sing early in the morning and is the first heard during the 'Dawn chorus' Prominent ring around the eye helps distinguish it from other small brown birds.`,
+        summary: `Female is brown so I hate the name! Often seen in Winter on the ground flicking leaves around but in Spring, it loves to sing early in the morning and is the first heard during the 'Dawn chorus' Prominent yellow ring around the eye helps distinguish it from other small brown birds.`,
         imageCount: 3,
         date: `11/05/2026`,
         location: `Thurstaston`,
@@ -232,7 +232,7 @@ const birddata = [
         whatStatus: `nothing`,
     }, {
         name: `Greenfinch`,
-        summary: `Very bright green during the summar and quite sociable with a more nasty call compared to the Goldfinch. Sadly due to the rise in trichomonosis and how easily it spreads, their numbers are declining. Clean your bird feeders and try not to use trays.`,
+        summary: `Very bright green during the Summer and quite sociable with a more nasty call compared to the Goldfinch. Sadly due to the rise in trichomonosis and how easily it spreads, their numbers are declining. Clean your bird feeders and try not to use trays.`,
         imageCount: 2,
         date: `14/02/2026`,
         location: `Thurstaston`,
