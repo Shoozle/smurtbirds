@@ -44,6 +44,7 @@ const Gallery = () => {
                     index={activeBird}
                     nextBirdName={activeBird < birddata.length - 1 ? birddata[activeBird + 1].name : ''}
                     prevBirdName={activeBird > 0 ? birddata[activeBird - 1].name : ''}
+                    datalength={birddata.length}
                 />}
         </div>
     )
