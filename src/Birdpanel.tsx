@@ -31,11 +31,11 @@ function BirdPanel({ onClick, onPrevBird, onNextBird, onKeyDown, name, summary, 
             </div>
             <div className="z-3 fixed top-1/2 left-1/2 mt-1/2 ml-1/2 -translate-y-1/2 -translate-x-1/2 grid sm:grid-cols-1 w-full md:grid-cols-1 lg:grid-cols-3 max-w-[1600px] bg-gray-900/90 backdrop-blur-sm rounded-lg">
                 <div className="grid absolute w-full -top-12 grid-cols-2 justify-around ">
-                    <button className={"" + (index === 0 ? 'invisible hidden' : 'flex items-start mr-auto bg-gray-900/80 pt-2 pl-4 pr-4 pb-2 rounded-xl hover:bg-gray-900/100 cursor-pointer')}
+                    <button className={"" + (index === 0 ? 'invisible' : 'flex items-start mr-auto bg-gray-900/80 pt-2 pl-4 pr-4 pb-2 rounded-xl hover:bg-gray-900/100 cursor-pointer')}
                         onClick={() => { onPrevBird && onPrevBird(); SetActiveImage(1); }}>
                         <Lineicons icon={ArrowLeftCircleSolid} className="mr-2" /> {prevBirdName}
                     </button>
-                    <button className={"" + (index === datalength - 1 ? 'invisible hidden' : 'flex items-end ml-auto bg-gray-900/80 pt-2 pl-4 pr-4 pb-2 rounded-xl hover:bg-gray-900/100 cursor-pointer')}
+                    <button className={"" + (index === datalength - 1 ? 'invisible' : 'flex items-end ml-auto bg-gray-900/80 pt-2 pl-4 pr-4 pb-2 rounded-xl hover:bg-gray-900/100 cursor-pointer')}
                         onClick={() => { onNextBird && onNextBird(); SetActiveImage(1); }}>
                         {nextBirdName} <Lineicons icon={ArrowRightCircleSolid} className="ml-2" />
                     </button>
