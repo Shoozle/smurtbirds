@@ -164,7 +164,7 @@ const birddata = [
     },
     {
         name: `Gannet`,
-        summary: `The bird featured on my RSPB card! Thousands were present at the Bempton Cliffs.They are huge and will often fly up from below close to your head at viewing points. Their babies look like big cuddly toys.`,
+        summary: `The bird featured on my RSPB card! Thousands were present at the Bempton Cliffs. They are huge and will often fly up from below close to your head at viewing points. Their babies look like big cuddly toys.`,
         imageCount: 9,
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
