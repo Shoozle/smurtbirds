@@ -43,10 +43,10 @@ function BirdPanel({ onClick, onPrevBird, onNextBird, onKeyDown, name, summary, 
                 <div className="sm:col-span-1 md:col-span-2">
                     <Carousel name={name} imageCount={imageCount} activeImage={activeImage} setActiveImage={SetActiveImage} />
                 </div>
-                <div className=" order-last relative flex flex-col max-w-6xl mx-auto text-white pb-8 pt-8 px-6">
-                    <h1 className="text-2xl mb-8 font-bold">The {name}</h1>
+                <div className=" order-last relative flex flex-col max-w-6xl mx-auto text-white pb-4 pt-4 px-6">
+                    <h1 className="text-2xl mb-4 font-bold">The {name}</h1>
                     <p className="text-lg mb-auto">{summary}</p>
-                    <p className="text-lg">Favourite photo was taken in {location} on {date}</p>
+                    <p className="text-lg pt-2">Favourite photo was taken in {location} on {date}</p>
                 </div>
             </div>
         </>
