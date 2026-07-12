@@ -10,7 +10,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
     const renderImg = () => {
         return (
             <img
-                src={`Birds/${name}${activeImage}.JPG`}
+                src={`./Birds/${name}${activeImage}.JPG`}
                 loading="lazy"
                 alt={name}
                 className="w-full h-full z-5"
