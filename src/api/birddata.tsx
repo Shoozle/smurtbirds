@@ -206,7 +206,7 @@ const birddata = [
         whatStatus: ``,
     }, {
         name: `Great Black-backed Gull`,
-        summary: `Often I can't tell the difference between the two, but I saw two big seagulls sat down next to eachother with very black backs and eyes that looked small. It had to be a Great Black-backed Gull! Surely? Hmm, now I am doubting it`,
+        summary: `Often I can't tell the difference between the two, but I saw two big seagulls sat down next to eachother with very black backs and eyes that looked small. It had to be a Great Black-backed Gull! Surely? Hmm, now I am doubting it.`,
         imageCount: 1,
         date: `22/02/2026`,
         location: `Marshside`,

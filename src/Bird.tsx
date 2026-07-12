@@ -29,17 +29,17 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
 
     return (
         <div onClick={onClick} className={"relative rounded-lg shadow-lg border-2 overflow-hidden cursor-zoom-in hover:shadow-2xl min-h-50 bg-[url(./Birds/thumbs/Placeholder.JPG)] " +
-            (whatStatus === `updated` ? "order-3" : whatStatus === `new` ? "order-2" : "order-4")}>
-            <h2
-                className="absolute pointer-events-none z-1 text-white/90 w-full text-center font-bold text-3xl pt-1 text-shadow-lg/30">
-                {name}
-                {whatStatus === `updated` ? " (Updated)" : null}
-                {whatStatus === `new` ? " (New)" : null}
-            </h2>
+            (whatStatus === `updated` ? "order-3" : whatStatus === `new` ? "order-2 " : "order-4")}>
             <Suspense fallback={loadingImg()}>
+                <h2
+                    className={"absolute pointer-events-none z-1 text-white/90 w-full text-center font-bold text-3xl pb-2 text-shadow-lg/30 " + (whatStatus === `new` ? "bg-yellow-400" : whatStatus === `updated` ? "bg-blue-300" : "")}>
+                    {name}
+                    {whatStatus === `updated` ? " (Updated)" : null}
+                    {whatStatus === `new` ? " (New)" : null}
+                </h2>
+
                 {renderImg()}
             </Suspense>
-            {whatStatus === `new` ? <span className="absolute top-0 left-0 inline-flex h-10 w-10 animate-ping rounded-full bg-yellow-400 opacity-75"></span> : null}
         </div>
 
     )
