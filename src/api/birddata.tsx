@@ -83,6 +83,14 @@ const birddata = [
         date: `06/04/2026`,
         location: `Thurstaston`,
         whatStatus: ``,
+    },
+    {
+        name: `Chough`,
+        summary: `At first I thought this was a crow with blood or something on the beak but turns out it's one of two kinds of chough (other is alpine chough with a yellow beak). Never knew it existed. Mostly sticks to the west coasts of the UK and Ireland but not the east coast of Ireland, weird!`,
+        imageCount: 1,
+        date: `18/04/2026`,
+        location: `Holyhead`,
+        whatStatus: ``,
     }, {
         name: `Coal Tit`,
         summary: `A surprisingly hard bird to find. I love their muted colours. Often I photograph a great tit hoping it's a coal tit, but sadly not. I was in Princes Park once and saw one flying about with some lovely trees with pink leaves in the background but there was too many kids around so I didn't get my camera out. Maybe next time!`,
