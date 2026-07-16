@@ -249,7 +249,7 @@ const birddata = [
         whatStatus: ``,
     }, {
         name: `Greater Scaup`,
-        summary: `One of the rarest birds I have seen, and yet it looks so plain, poor thing. Male remained at Marine Lake in West Kirby for a long time. Someone reported it as a Lesser Scaup months after I took the photo, so I went there again but it was still a Greater Scaup! Curse that person.`,
+        summary: `One of the rarest birds I have seen, and yet it looks so plain, poor thing. Male remained at Marine Lake in West Kirby for a long time. Someone reported it as a Lesser Scaup months after I took my first photo, so I went there again but it was still a Greater Scaup! Curse that person.`,
         imageCount: 4,
         date: `15/07/2026`,
         location: `West Kirby`,
@@ -419,7 +419,7 @@ const birddata = [
         whatStatus: ``,
     }, {
         name: `Pheasant`,
-        summary: `Shy and loud with a sudden BAGAWWWK! I think they are pretty birds though, and they are good for removing things like ticks from cattle. I love their eyes. Juvenile Pheasants seem much more social and quiet and posed for me despite being close by in Parkgate.`,
+        summary: `Shy and loud with a sudden BAGAWWWK! I think they are pretty birds though, and they are good for removing things like ticks from cattle. I love their eyes. Juvenile Pheasants seem much more social and quiet, and it posed for me despite being close to it in Parkgate.`,
         imageCount: 4,
         date: `28/02/2026`,
         location: `Rother Valley Country Park`,
