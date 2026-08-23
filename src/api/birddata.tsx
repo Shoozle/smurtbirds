@@ -673,7 +673,7 @@ const birddata = [
     },
     {
         name: `Pelican`,
-        summary: `Massive birds. Quite scary up close. St James Park has done a good service providing a lovely habitat for them and are reguarly fed which I got to see. They also had chicks recently. Also saw a bunch in The London Zoo. The chicks stick their heads right inside the beak of the parent during feeding.`,
+        summary: `Massive birds. Quite scary up close. St James Park has done a good service providing a lovely habitat for them and are regularly fed which I got to see. They also had chicks recently. Also saw a bunch in The London Zoo. The chicks stick their heads right inside the beak of the parent during feeding.`,
         imageCount: 6,
         date: `22/08/2026`,
         location: `St James Park`,
