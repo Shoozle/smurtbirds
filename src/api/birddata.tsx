@@ -26,7 +26,7 @@ const birddata = [
         imageCount: 5,
         date: `18/04/2026`,
         location: `Holyhead`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Black-headed Gull`,
         summary: `A cute small gull but I hate the name. The black-head it's named for is only there during breeding season, otherwise it's more of an ink smudge. And I would argue it's more brown than black. Add it to the list of bad bird names!`,
@@ -176,7 +176,7 @@ const birddata = [
         imageCount: 9,
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
-        whatStatus: `new`,
+        whatStatus: ``,
     }, {
         name: `Goldcrest`,
         summary: `UK's smallest bird that weighs the same as a 5p coin. I saw them aplenty when I first got my camera and now I never see them, gutted.`,
@@ -253,7 +253,7 @@ const birddata = [
         imageCount: 4,
         date: `15/07/2026`,
         location: `West Kirby`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Greenfinch`,
         summary: `Very bright green during the Summer and quite sociable with a more nasty call compared to the Goldfinch. Sadly due to the rise in trichomonosis and how easily it spreads, their numbers are declining. Clean your bird feeders and try not to use trays.`,
@@ -317,7 +317,7 @@ const birddata = [
         imageCount: 6,
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
-        whatStatus: `new`,
+        whatStatus: ``,
     }, {
         name: `Lapwing`,
         summary: `Loud crybaby birds. I was at amazed that the first time I went to Lunt Meadows, there was over 200 of them. Since then, I've never seen as many. A guy asked me what they were and I helped him out. I love their funky hairdo. They fly a bit awkwardly which is how they got their name.`,
@@ -423,14 +423,14 @@ const birddata = [
         imageCount: 4,
         date: `28/02/2026`,
         location: `Rother Valley Country Park`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Pied Wagtail`,
         summary: `A bird that mostly tends to show itself after I put away my camera. My friend thought this was a baby magpie. Often the UKBirds subreddit will ask for bird identification, and 99% of the time, it's a Pied Wagtail. They do love to bob their tail hence the name.`,
         imageCount: 4,
         date: `15/07/2026`,
         location: `Parkgate`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Pintail`,
         summary: `I adore this duck! The long tail it is named for is really elegant looking. May often see it head down in water with it's arse in the air. I like any duck where you can easily differentiate it from a mallard.`,
@@ -453,7 +453,7 @@ const birddata = [
         imageCount: 4,
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Razorbill`,
@@ -461,7 +461,7 @@ const birddata = [
         imageCount: 4,
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Red Breasted Merganser`,
@@ -540,7 +540,7 @@ const birddata = [
         imageCount: 4,
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Turnstone`,
@@ -662,6 +662,38 @@ const birddata = [
         date: `22/02/2026`,
         location: `Marshside`,
         whatStatus: ``,
+    },
+    {
+        name: `Pochard`,
+        summary: `The red eye is quite striking! Aside from that, it's a typical duck. I am really beginning to learn my ducks.`,
+        imageCount: 2,
+        date: `22/08/2026`,
+        location: `St James Park`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Pelican`,
+        summary: `Massive birds. Quite scary up close. St James Park has done a good service providing a lovely habitat for them and are reguarly fed which I got to see. They also had chicks recently. Also saw a bunch in The London Zoo. The chicks stick their heads right inside the beak of the parent during feeding.`,
+        imageCount: 6,
+        date: `22/08/2026`,
+        location: `St James Park`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Hawaiian Goose`,
+        summary: `Also known as a Nene. Native to Hawaii, hence the name, but have been domesticated at St James Park which is becoming a lovely little zone for birdwatching. Quite hard to tell apart from other Goose but the neck colour gives it away.`,
+        imageCount: 2,
+        date: `22/08/2026`,
+        location: `St James Park`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Red-Breasted Goose`,
+        summary: `Possibly my favourite looking goose. Only saw one of them and it was surrounded by other geese making it hard to photograph.`,
+        imageCount: 2,
+        date: `22/08/2026`,
+        location: `St James Park`,
+        whatStatus: `new`,
     }, {
         name: `Willow Warbler`,
         summary: `Looks like a Chiffchaff, but sounds nothing like it. I had a lot of difficulty finding them despite my phone app alerting me of them aplenty. The day I finally got one, it was incredibly windy but it held it's ground on a stick and posed for me for a good while. Thanks birdy!`,
