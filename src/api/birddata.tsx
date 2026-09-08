@@ -48,7 +48,7 @@ const birddata = [
         imageCount: 2,
         date: `24/08/2026`,
         location: `St Aidan's`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Spoonbill`,
@@ -56,7 +56,7 @@ const birddata = [
         imageCount: 2,
         date: `24/08/2026`,
         location: `Fairburn Ings`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Little Grebe`,
@@ -64,6 +64,14 @@ const birddata = [
         imageCount: 2,
         date: `24/08/2026`,
         location: `Fairburn Ings`,
+        whatStatus: ``,
+    },
+    {
+        name: `Cattle Egret`,
+        summary: `Wish I got it in better plumage as it looks almost like a Little Egret. It was on a cow which is fitting for the name, and a bloke nearby was closer and in a better position, it flew off before I got there. Bummer!`,
+        imageCount: 1,
+        date: `07/09/2026`,
+        location: `Lunt Meadows`,
         whatStatus: `new`,
     },
     {
@@ -72,7 +80,7 @@ const birddata = [
         imageCount: 2,
         date: `24/08/2026`,
         location: `Fairburn Ings`,
-        whatStatus: `new`,
+        whatStatus: ``,
     }, {
         name: `Brent Goose`,
         summary: `An uncommon goose only here during the Winter and along our coasts. Arrives in October and leaves in April so just about got to these in time. eBird really helped me figure out how to find them and easy access to Hilbre Island made it possible. The white patch on the neck helps it stand out from other geese.`,
@@ -222,7 +230,7 @@ const birddata = [
         imageCount: 2,
         date: `17/01/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Goldfinch`,
         summary: `A very sociable bird with a warbly chirpy call. Lovely colours when lit up by the sun. The first photo I took of it was during the greyest UK weather I have ever witnessed.`,
@@ -257,7 +265,7 @@ const birddata = [
         imageCount: 4,
         date: `02/05/2026`,
         location: `Tipton`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Great Crested Grebe`,
         summary: `Ah, the Bloodborne bird (cos of the hair reminding me of the Hunter's Hat). I love how they look. Once saw one pull a worm out of it's cloaca in Tipton and it never occurred to me that birds could get worms. Their chicks have lovely colours and looked like a Everton Mint`,
@@ -341,7 +349,7 @@ const birddata = [
         imageCount: 7,
         date: `10/01/2026`,
         location: `Rimrose Valley Country Park`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     },
     {
         name: `Kittiwake`,
@@ -385,7 +393,7 @@ const birddata = [
         imageCount: 6,
         date: `24/08/2026`,
         location: `Fairburn Ings`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Magpie`,
         summary: `I don't photograph these often and I should probably change that. The iridescent feathers can look lovely in nice lighting. Has a bad rep for eating the eggs of other birds but hey, that's nature!`,
@@ -701,7 +709,7 @@ const birddata = [
         imageCount: 2,
         date: `22/08/2026`,
         location: `St James Park`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Pelican`,
@@ -709,7 +717,7 @@ const birddata = [
         imageCount: 6,
         date: `22/08/2026`,
         location: `St James Park`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Hawaiian Goose`,
@@ -717,7 +725,7 @@ const birddata = [
         imageCount: 2,
         date: `22/08/2026`,
         location: `St James Park`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Red-Breasted Goose`,
@@ -725,7 +733,7 @@ const birddata = [
         imageCount: 2,
         date: `22/08/2026`,
         location: `St James Park`,
-        whatStatus: `new`,
+        whatStatus: ``,
     }, {
         name: `Willow Warbler`,
         summary: `Looks like a Chiffchaff, but sounds nothing like it. I had a lot of difficulty finding them despite my phone app alerting me of them aplenty. The day I finally got one, it was incredibly windy but it held it's ground on a stick and posed for me for a good while. Thanks birdy!`,
@@ -764,10 +772,10 @@ const birddata = [
     }, {
         name: `Robin`,
         summary: `One of my favourite birds to photograph as they are frequently on branches at chest height. We associate them a lot with Winter but that's mostly because other birds quiet down or migrate, so they are the last few left singing. They are quite territorial which makes them fitting as Britain's unofficial national bird.`,
-        imageCount: 6,
+        imageCount: 5,
         date: `03/01/2026`,
         location: `Thurstaston`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Blue Tit`,
         summary: `An absolutely cutie pie of a bird. Apparently the males with the bluest heads are the most likely to get the females. The word tit used to mean small thing which is why so many birds are called tits. They sync up their laying of eggs with the caterpillar season so if you see one with a caterpillar, you may be able to see it fly back to the nest.`,
