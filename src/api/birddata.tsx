@@ -250,7 +250,7 @@ const birddata = [
         summary: `A bird that scares easily, so easily I don't see it first, which it jumping and yelling scares me more than I scared it. That said, happy to at least get 3 in one shot even if it is awful.`,
         imageCount: 1,
         date: `17/01/2026`,
-        location: `Thurstaston`,
+        location: `Lunt Meadows`,
         whatStatus: ``,
     }, {
         name: `Great Black-backed Gull`,
