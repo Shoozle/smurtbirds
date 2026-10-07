@@ -72,7 +72,7 @@ const birddata = [
         imageCount: 1,
         date: `07/09/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Great Egret`,
@@ -145,6 +145,14 @@ const birddata = [
         date: `10/01/2026`,
         location: `Liverpool to Leeds Canal`,
         whatStatus: ``,
+    },
+    {
+        name: `Common Merganser`,
+        summary: `A lovely bird with a funky hairdo, but not as funky as the Red-breasted Merganser. At least I think so, but I can't tell if my pic from Silverdale even is correctly identified. Lot of em at West Kirby Marine Lake arriving in the Autumn. `,
+        imageCount: 3,
+        date: `07/10/2026`,
+        location: `West Kirby Marine Lake`,
+        whatStatus: `new`,
     },
     {
         name: `Common Tern`,
@@ -292,7 +300,7 @@ const birddata = [
         summary: `One of the rarest birds I have seen, and yet it looks so plain, poor thing. Male remained at Marine Lake in West Kirby for a long time. Someone reported it as a Lesser Scaup months after I took my first photo, so I went there again but it was still a Greater Scaup! Curse that person.`,
         imageCount: 4,
         date: `15/07/2026`,
-        location: `West Kirby`,
+        location: `West Kirby Marine Lake`,
         whatStatus: ``,
     }, {
         name: `Greenfinch`,
@@ -656,10 +664,10 @@ const birddata = [
     }, {
         name: `Starling`,
         summary: `Adorable bird that loves to hang out in car parks in groups like a bunch of teenagers. The iridescent feathers and the beak having 3 colours during breeding season which makes them a joy to photo. Have yet to see a murmuration but hope to one day.`,
-        imageCount: 1,
-        date: `10/01/2026`,
-        location: `Liverpool to Leeds Canal`,
-        whatStatus: ``,
+        imageCount: 5,
+        date: `07/10/2026`,
+        location: `West Kirby`,
+        whatStatus: `updated`,
     }, {
         name: `Stonechat`,
         summary: `They got their name from their call which sounds like 2 stones being scraped together. They look like a fancier more gothic robin and I really like photographing them. The males are darker in tone than the females.`,
