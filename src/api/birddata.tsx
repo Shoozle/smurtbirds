@@ -269,7 +269,7 @@ const birddata = [
         whatStatus: ``,
     }, {
         name: `Cormorant`,
-        summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in parts of Asia, they are used to catch fish with a rope around their neck, becoming unable to swallow the fish and spit it back up on the boat. Poor birds! Saw a sleepy one in Birkenhead.`,
+        summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in parts of Asia, they are used to catch fish with a rope around their neck, becoming unable to swallow the fish and spit it back up on the boat. Poor birds! Saw a sleepy one in Birkenhead in a lovely spot.`,
         imageCount: 5,
         date: `08/10/2026`,
         location: `Birkenhead Park`,
