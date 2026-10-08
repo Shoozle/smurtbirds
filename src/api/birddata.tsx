@@ -269,11 +269,11 @@ const birddata = [
         whatStatus: ``,
     }, {
         name: `Cormorant`,
-        summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in parts of Asia, they are used to catch fish with a rope around their neck, becoming unable to swallow the fish and spit it back up on the boat. Poor birds!`,
-        imageCount: 4,
-        date: `02/05/2026`,
-        location: `Tipton`,
-        whatStatus: ``,
+        summary: `One of my favourite birds! I feel sorry for it as it often just flaps its wings to dry them off due to them not having as much oil to stop the water clogging the feathers. And in parts of Asia, they are used to catch fish with a rope around their neck, becoming unable to swallow the fish and spit it back up on the boat. Poor birds! Saw a sleepy one in Birkenhead.`,
+        imageCount: 5,
+        date: `08/10/2026`,
+        location: `Birkenhead Park`,
+        whatStatus: `updated`,
     }, {
         name: `Great Crested Grebe`,
         summary: `Ah, the Bloodborne bird (cos of the hair reminding me of the Hunter's Hat). I love how they look. Once saw one pull a worm out of it's cloaca in Tipton and it never occurred to me that birds could get worms. Their chicks have lovely colours and looked like a Everton Mint`,
