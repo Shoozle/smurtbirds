@@ -22,6 +22,7 @@ const Gallery = () => {
         <Bird onClick={() => clickHandler(index)} key={bird.name} name={bird.name} whatStatus={bird.whatStatus} />
     ))
 
+
     return (
         <div
             onKeyDown={keyHandler}
