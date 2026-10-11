@@ -31,7 +31,7 @@ const Gallery = () => {
                     <h2>{zoobirds[activeBird]?.name}</h2>
                 </div>
                 <div >
-                    {loadedImage === false ? <Placeholder /> : null}
+                    {loadedImage === false ? <Placeholder size={"large"} /> : null}
                     <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name}
                         className={loadedImage ? "w-full h-full z-1 object-cover" : "invisible"}
                         onLoad={() => setLoadedImage(true)}
