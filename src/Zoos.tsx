@@ -6,19 +6,10 @@ const Gallery = () => {
 
     const [activeBird, SetActiveBird] = useState(0);
     const [loadedImage, setLoadedImage] = useState(false);
-    const [loadingImage, setLoadingImage] = useState(true);
 
     const clickHandler = (index: number) => {
         SetActiveBird(index);
     }
-
-    // const keyHandler = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    //     event.key === "Escape" ? SetViewingBird(false) : null;
-    // }
-
-    // const allZooBirds = zoobirds.map((bird, index) => (
-    //     <Bird onClick={() => clickHandler(index)} key={bird.name} name={bird.name} whatStatus={bird.conservationStatus} />
-    // ))
 
     const zooNames = zoobirds.map((bird, index) => (
         <li className={"cursor-pointer" + (index === activeBird ? " bg-blue-500" : "")}
