@@ -1,9 +1,12 @@
 import zoobirds from "./api/zoodata";
 import { useState } from "react";
+import Placeholder from "./Placeholder";
 
 const Gallery = () => {
 
     const [activeBird, SetActiveBird] = useState(0);
+    const [loadedImage, setLoadedImage] = useState(false);
+    const [loadingImage, setLoadingImage] = useState(true);
 
     const clickHandler = (index: number) => {
         SetActiveBird(index);
@@ -18,7 +21,9 @@ const Gallery = () => {
     // ))
 
     const zooNames = zoobirds.map((bird, index) => (
-        <li className={"cursor-pointer" + (index === activeBird ? " bg-blue-500" : "")} onClick={() => clickHandler(index)} key={bird.name}>
+        <li className={"cursor-pointer" + (index === activeBird ? " bg-blue-500" : "")}
+            onClick={() => { clickHandler(index); if (index !== activeBird) setLoadedImage(false); }}
+            key={bird.name}>
             {bird.name}
         </li>
     ))
@@ -34,8 +39,12 @@ const Gallery = () => {
                 <div id="bird-data" className="absolute bg-gray-900 pt-1 pb-1 pl-2 pr-2 m-2">
                     <h2>{zoobirds[activeBird]?.name}</h2>
                 </div>
-                <div>
-                    <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name} className="w-full h-full object-cover" />
+                <div >
+                    {loadedImage === false ? <Placeholder /> : null}
+                    <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name}
+                        className="w-full h-full z-1 object-cover"
+                        onLoad={() => setLoadedImage(true)}
+                        loading="lazy" />
                 </div>
 
             </div>
