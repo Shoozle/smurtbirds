@@ -373,12 +373,6 @@ const zoodata = [
         continent: `American`,
         biome: `Grassland`,
     }, {
-        name: `Sunda Wrinkled Hornbill`,
-        zooLocation: `Chester Zoo`,
-        conservationStatus: `Least Concern`,
-        continent: `American`,
-        biome: `Grassland`,
-    }, {
         name: `Superb Fruit Dove`,
         zooLocation: `Chester Zoo`,
         conservationStatus: `Least Concern`,

@@ -4,7 +4,7 @@ import Zoos from './Zoos'
 
 function App() {
 
-  const activeWindow = useState('zoos')
+  const activeWindow = useState('birds')
 
   return (
     <>
