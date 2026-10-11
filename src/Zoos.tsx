@@ -33,7 +33,7 @@ const Gallery = () => {
                 <div >
                     {loadedImage === false ? <Placeholder /> : null}
                     <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name}
-                        className={loadedImage ? "w-full h-full z-1 object-cover" : "hidden"}
+                        className={loadedImage ? "w-full h-full z-1 object-cover" : "invisible"}
                         onLoad={() => setLoadedImage(true)}
                         loading="lazy" />
                 </div>
