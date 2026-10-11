@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Placeholder from './Placeholder';
+// import Placeholder from './Placeholder';
 
 interface BirdProps {
     onClick?: () => void;
@@ -23,7 +23,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
                 {whatStatus === `new` ? " (New)" : null}
             </h2>
             <div className="relative w-full h-full">
-                {loadedImage === false ? <Placeholder size={"small"} /> : null}
+                {/* {loadedImage === false ? <Placeholder size={"small"} /> : null} */}
                 <img
                     className={loadedImage ? "brightness-90 hover:brightness-110 hover:scale-110 transition ease-in duration-300 w-full h-full z-1 object-cover" : "invisible"}
                     src={localurl}
