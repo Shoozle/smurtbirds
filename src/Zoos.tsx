@@ -19,26 +19,33 @@ const Gallery = () => {
         </li>
     ))
 
+    const birdArea = () => {
+        return (
+            <div id="bird-area" className={loadedImage ? "text-white col-span-4 lg:col-span-3" : "invisible"} >
+                <div id="bird-data" className="absolute bg-gray-900 pt-1 pb-1 pl-2 pr-2 m-2">
+                    <h2>{zoobirds[activeBird]?.name}</h2>
+                    <h2>{zoobirds[activeBird]?.zooLocation}</h2>
+                </div>
+                <div >
+                    <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name}
+                        className={"w-full h-full z-1 object-cover"}
+                        onLoad={() => setLoadedImage(true)}
+                        loading="lazy" />
+                </div>
+            </div>
+        )
+    }
+
+
     return (
-        <div className="grid grid-cols-4 text-black-500 gap-2">
+        <div className="grid grid-cols-4 text-black-500 gap-2 overflow-hidden">
             <div id="sidebar" className="scrollbar-thumb-[#c87288] scrollbar-track-[#e6dbca] scrollbar-thin lg:col-span-1 col-span-4 max-h-90 lg:max-h-241 overflow-y-scroll bg-[#b8a99c] rounded-lg text-center ">
                 <ul className="">
                     {zooNames}
                 </ul>
             </div>
-            <div id="bird-area" className="text-white col-span-4 lg:col-span-3">
-                <div id="bird-data" className="absolute bg-gray-900 pt-1 pb-1 pl-2 pr-2 m-2">
-                    <h2>{zoobirds[activeBird]?.name}</h2>
-                </div>
-                <div >
-                    {loadedImage === false ? <Placeholder size={"large"} /> : null}
-                    <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name}
-                        className={loadedImage ? "w-full h-full z-1 object-cover" : "invisible"}
-                        onLoad={() => setLoadedImage(true)}
-                        loading="lazy" />
-                </div>
-
-            </div>
+            {loadedImage === false ? <Placeholder size={"large"} url={zoobirds[activeBird]?.name || ""} /> : null}
+            {birdArea()}
         </div>
     )
 }
