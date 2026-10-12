@@ -12,7 +12,7 @@ const Gallery = () => {
     }
 
     const zooNames = zoobirds.map((bird, index) => (
-        <li className={"cursor-pointer" + (index === activeBird ? " bg-blue-500" : "")}
+        <li className={"bg-[#e6dbca] cursor-pointer rounded-xl ml-4 mr-4 mb-2 mt-2 p-2 border-1 border-gray-400 hover:border-[#c87288]!" + (index === activeBird ? " bg-[#c87288]!" : "")}
             onClick={() => { clickHandler(index); if (index !== activeBird) setLoadedImage(false); }}
             key={bird.name}>
             {bird.name}
@@ -20,9 +20,9 @@ const Gallery = () => {
     ))
 
     return (
-        <div className="grid grid-cols-4 text-gray-500 gap-2">
-            <div id="sidebar" className="text-white lg:col-span-1 col-span-4 max-h-90 lg:max-h-241 overflow-y-scroll bg-gray-800 rounded-lg text-center ">
-                <ul className="line-height-8">
+        <div className="grid grid-cols-4 text-black-500 gap-2">
+            <div id="sidebar" className="scrollbar-thumb-[#c87288] scrollbar-track-[#e6dbca] scrollbar-thin lg:col-span-1 col-span-4 max-h-90 lg:max-h-241 overflow-y-scroll bg-[#b8a99c] rounded-lg text-center ">
+                <ul className="">
                     {zooNames}
                 </ul>
             </div>
