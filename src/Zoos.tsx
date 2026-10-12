@@ -21,7 +21,7 @@ const Gallery = () => {
 
     const birdArea = () => {
         return (
-            <div id="bird-area" className={loadedImage ? "text-white col-span-4 lg:col-span-3" : "invisible"} >
+            <div id="bird-area" className={loadedImage ? "text-white col-span-4 lg:col-span-3" : "hidden"} >
                 <div id="bird-data" className="absolute bg-gray-900 pt-1 pb-1 pl-2 pr-2 m-2">
                     <h2>{zoobirds[activeBird]?.name}</h2>
                     <h2>{zoobirds[activeBird]?.zooLocation}</h2>
@@ -30,7 +30,7 @@ const Gallery = () => {
                     <img src={`./ZooBirds/${zoobirds[activeBird]?.name}.JPG`} alt={zoobirds[activeBird]?.name}
                         className={"w-full h-full z-1 object-cover"}
                         onLoad={() => setLoadedImage(true)}
-                        loading="lazy" />
+                    />
                 </div>
             </div>
         )
@@ -44,7 +44,7 @@ const Gallery = () => {
                     {zooNames}
                 </ul>
             </div>
-            {loadedImage === false ? <Placeholder size={"large"} url={zoobirds[activeBird]?.name || ""} /> : null}
+            {loadedImage === false ? <Placeholder size={"large"} url={zoobirds[activeBird]?.name} /> : null}
             {birdArea()}
         </div>
     )
