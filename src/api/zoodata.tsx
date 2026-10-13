@@ -625,6 +625,48 @@ const zoodata = [
         continent: `American`,
         biome: `Grassland`,
     },
+    {
+        name: `Emerald Starling`,
+        zooLocation: `London Zoo`,
+        conservationStatus: `Least Concern`,
+        continent: `American`,
+        biome: `Grassland`,
+    },
+    {
+        name: `Violet Turaco`,
+        zooLocation: `London Zoo`,
+        conservationStatus: `Least Concern`,
+        continent: `American`,
+        biome: `Grassland`,
+    },
+    {
+        name: `Brahminy Starling`,
+        zooLocation: `London Zoo`,
+        conservationStatus: `Least Concern`,
+        continent: `American`,
+        biome: `Grassland`,
+    },
+    {
+        name: `Black-naped Fruit Dove`,
+        zooLocation: `London Zoo`,
+        conservationStatus: `Least Concern`,
+        continent: `American`,
+        biome: `Grassland`,
+    },
+    {
+        name: `Mountain Peacock-pheasant`,
+        zooLocation: `London Zoo`,
+        conservationStatus: `Least Concern`,
+        continent: `American`,
+        biome: `Grassland`,
+    },
+    {
+        name: `Madagascar Ibis`,
+        zooLocation: `London Zoo`,
+        conservationStatus: `Least Concern`,
+        continent: `American`,
+        biome: `Grassland`,
+    },
 ]
 
 zoodata.sort((a, b) => a.name.localeCompare(b.name));
