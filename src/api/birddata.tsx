@@ -152,7 +152,7 @@ const birddata = [
         imageCount: 3,
         date: `07/10/2026`,
         location: `West Kirby Marine Lake`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Common Tern`,
@@ -273,7 +273,7 @@ const birddata = [
         imageCount: 5,
         date: `08/10/2026`,
         location: `Birkenhead Park`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Great Crested Grebe`,
         summary: `Ah, the Bloodborne bird (cos of the hair reminding me of the Hunter's Hat). I love how they look. Once saw one pull a worm out of it's cloaca in Tipton and it never occurred to me that birds could get worms. Their chicks have lovely colours and looked like a Everton Mint`,
@@ -667,7 +667,7 @@ const birddata = [
         imageCount: 5,
         date: `07/10/2026`,
         location: `West Kirby`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Stonechat`,
         summary: `They got their name from their call which sounds like 2 stones being scraped together. They look like a fancier more gothic robin and I really like photographing them. The males are darker in tone than the females.`,
@@ -805,7 +805,31 @@ const birddata = [
         date: `17/01/2026`,
         location: `Lunt Meadows`,
         whatStatus: ``,
-    }
+    },
+    {
+        name: `Western Barn Owl`,
+        summary: `At last I am able to say yes if that lady asks me "did you see the owl" again. Before the clocks change, I thought I'd travel to the Lunt Meadows Nature Reserve, and it showed up when I was at the Mesolithic Site. And I followed it for a good while. Wished it was brighter and I had a larger reach.`,
+        imageCount: 9,
+        date: `19/10/2026`,
+        location: `Lunt Meadows`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Snipe`,
+        summary: `Cute, tubby wader. More common in Winter and hide within flocks of other birds. Apparently, it is named after hunters who had difficulty trying to shoot it. Poor things! I never saw it flying so can't vouch for how erratic it flies.`,
+        imageCount: 1,
+        date: `19/10/2026`,
+        location: `Lunt Meadows`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Sparrowhawk`,
+        summary: `I think this is a Sparrowhawk? It had a staredown battle with an owl I also saw, so to get both of them in the same frame was really nice. Did not see any poor unfortunate things it hunted but it looks very shocked by the owl. `,
+        imageCount: 1,
+        date: `19/10/2026`,
+        location: `Lunt Meadows`,
+        whatStatus: `new`,
+    },
 ]
 
 birddata.sort((a, b) => a.name.localeCompare(b.name));
