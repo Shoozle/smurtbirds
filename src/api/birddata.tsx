@@ -147,8 +147,8 @@ const birddata = [
         whatStatus: ``,
     },
     {
-        name: `Common Merganser`,
-        summary: `A lovely bird with a funky hairdo, but not as funky as the Red-breasted Merganser. At least I think so, but I can't tell if my pic from Silverdale even is correctly identified. Lot of em at West Kirby Marine Lake arriving in the Autumn. `,
+        name: `Goosander`,
+        summary: `A lovely bird with a funky hairdo, but not as funky as the Red-breasted Merganser. At least I think so, but I can't tell if my pic from Silverdale even is correctly identified. Lot of em at West Kirby Marine Lake arriving in the Autumn. I thought these and Goosanders were different birds for many months...`,
         imageCount: 3,
         date: `07/10/2026`,
         location: `West Kirby Marine Lake`,
@@ -245,13 +245,6 @@ const birddata = [
         imageCount: 3,
         date: `11/05/2026`,
         location: `Thurstaston`,
-        whatStatus: ``,
-    }, {
-        name: `Goosander`,
-        summary: `A sick looking duck because it almost looks like it has a pompadour. Only ever seen it once during the Winter but hoping to keep an eye out for it again towards the end of the year. Only seen it far away deep into a lake.`,
-        imageCount: 1,
-        date: `17/01/2026`,
-        location: `Lunt Meadows`,
         whatStatus: ``,
     }, {
         name: `Grey Partridge`,
