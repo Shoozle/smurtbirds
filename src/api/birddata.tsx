@@ -60,11 +60,11 @@ const birddata = [
     },
     {
         name: `Little Grebe`,
-        summary: `A bird that is supposedly often in Princes Park in Liverpool, yet I had to go all the way to Castleford to find one. And it is indeed very little. The one I saw was alone and stayed under water for a long period of time.`,
+        summary: `A bird that is supposedly often in Princes Park in Liverpool, yet I had to go all the way to Castleford to find one. And it is indeed very little. The one I saw was alone and stayed under water for a long period of time. I then saw one casually around Chester Zoo doing the zoomies.`,
         imageCount: 2,
-        date: `24/08/2026`,
-        location: `Fairburn Ings`,
-        whatStatus: ``,
+        date: `24/09/2026`,
+        location: `Chester Zoo`,
+        whatStatus: `updated`,
     },
     {
         name: `Cattle Egret`,
