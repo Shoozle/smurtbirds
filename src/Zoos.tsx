@@ -36,7 +36,6 @@ const Gallery = () => {
         )
     }
 
-
     return (
         <div className="grid grid-cols-4 text-black-500 gap-2 overflow-hidden">
             <div id="sidebar" className="scrollbar-thumb-[#c87288] scrollbar-track-[#e6dbca] scrollbar-thin lg:col-span-1 col-span-4 max-h-90 lg:max-h-241 overflow-y-scroll bg-[#b8a99c] rounded-lg text-center ">

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import Placeholder from './Placeholder';
+import Placeholder from './Placeholder';
 
 interface BirdProps {
     onClick?: () => void;
@@ -11,7 +11,17 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
 
     const [loadedImage, setLoadedImage] = useState(false);
 
-    const localurl = `./Birds/thumbs/${name}1.JPG`;
+    const birdThumbnail = () => {
+        return (
+            <img
+                className={loadedImage === false ? "brightness-90 hover:brightness-110 hover:scale-110 transition ease-in duration-300 w-full h-full z-1 object-cover" : ""}
+                src={`./Birds/thumbs/${name}1.JPG`}
+                alt={name}
+                loading="lazy"
+                onLoad={() => setLoadedImage(true)}
+            />
+        )
+    }
 
     return (
         <div onClick={onClick} className={"relative rounded-lg shadow-lg border-2 overflow-hidden cursor-zoom-in hover:shadow-2xl min-h-50 " +
@@ -23,14 +33,8 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
                 {whatStatus === `new` ? " (New)" : null}
             </h2>
             <div className="relative w-full h-full">
-                {/* {loadedImage === false ? <Placeholder size={"small"} /> : null} */}
-                <img
-                    className={loadedImage ? "brightness-90 hover:brightness-110 hover:scale-110 transition ease-in duration-300 w-full h-full z-1 object-cover" : "invisible"}
-                    src={localurl}
-                    alt={name}
-                    loading="lazy"
-                    onLoad={() => setLoadedImage(true)}
-                />
+                {loadedImage === false ? <Placeholder size={"small"} url="" /> : null}
+                {birdThumbnail()}
             </div>
         </div>
 

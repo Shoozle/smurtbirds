@@ -455,8 +455,8 @@ const birddata = [
         name: `Oystercatcher`,
         summary: `Cool name for a bird! I really like their bright orange beaks and red eyes. Have yet to see them catch an oyster but they do love to spend the majority of time poking away in sand on our coasts.`,
         imageCount: 3,
-        date: `22/02/2026`,
-        location: `Marshside`,
+        date: `18/04/2026`,
+        location: `Holyhead`,
         whatStatus: ``,
     }, {
         name: `Pheasant`,
