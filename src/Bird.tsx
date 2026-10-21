@@ -26,7 +26,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
     }
 
     return (
-        <div onClick={onClick} className={"relative rounded-lg shadow-lg border-2 overflow-hidden cursor-zoom-in hover:shadow-2xl min-h-50 max-h-80 " +
+        <div onClick={onClick} className={"relative rounded-lg shadow-lg border-2 overflow-hidden cursor-zoom-in hover:shadow-2xl min-h-50 max-h-70 " +
             (whatStatus === `updated` ? "order-3" : whatStatus === `new` ? "order-2 " : "order-4")}>
             <h2
                 className={
