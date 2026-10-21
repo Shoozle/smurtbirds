@@ -800,7 +800,7 @@ const birddata = [
         whatStatus: ``,
     },
     {
-        name: `Western Barn Owl`,
+        name: `Barn Owl`,
         summary: `At last I am able to say yes if that lady asks me "did you see the owl" again. Before the clocks change, I thought I'd travel to the Lunt Meadows Nature Reserve, and it showed up when I was at the Mesolithic Site. And I followed it for a good while. Wished it was brighter and I had a larger reach.`,
         imageCount: 9,
         date: `19/10/2026`,
