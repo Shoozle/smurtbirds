@@ -823,6 +823,14 @@ const birddata = [
         location: `Lunt Meadows`,
         whatStatus: `new`,
     },
+    {
+        name: `Swift`,
+        summary: `Swifts are so hard to photograph but I spent a good 5 minutes or so trying to get a photo of them near the Bempton train station, and this is the only one that turned out alright! They never stop flying and do everything in the air; sleep, mate, eat. Weird!`,
+        imageCount: 1,
+        date: `08/07/2026`,
+        location: `Bempton Cliffs`,
+        whatStatus: ``,
+    },
 ]
 
 birddata.sort((a, b) => a.name.localeCompare(b.name));
