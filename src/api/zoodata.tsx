@@ -223,12 +223,6 @@ const zoodata = [
         continent: `American`,
         biome: `Grassland`,
     }, {
-        name: `Maccoa Duck`,
-        zooLocation: `Chester Zoo`,
-        conservationStatus: `Least Concern`,
-        continent: `American`,
-        biome: `Grassland`,
-    }, {
         name: `Madagascar Red Fody`,
         zooLocation: `Chester Zoo`,
         conservationStatus: `Least Concern`,
