@@ -202,7 +202,7 @@ const birddata = [
         imageCount: 4,
         date: `25/06/2026`,
         location: `Thurstaston`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     }, {
         name: `Egyptian Goose`,
         summary: `Saw it alone in Sheffield which was quite sad to see but made it quite special; then I go to London and there's 100s of them! Fancy looking goose compared to others. `,
@@ -347,10 +347,10 @@ const birddata = [
     }, {
         name: `Kestrel`,
         summary: `Spotted the red wings from behind and thought what the hell is that. I then spent 10 minutes photographing it from below as it stretched, gave me the evil eye and all sorts. It was quite intimate! Then in Holyhead I saw one bite the head off a lizard and then swallow it. And then in Fairburn Ings, I saw one catch a mouse. What luck I have with Kestrels!`,
-        imageCount: 7,
+        imageCount: 9,
         date: `10/01/2026`,
         location: `Rimrose Valley Country Park`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     },
     {
         name: `Kittiwake`,
@@ -805,7 +805,7 @@ const birddata = [
         imageCount: 9,
         date: `19/10/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Snipe`,
@@ -813,7 +813,7 @@ const birddata = [
         imageCount: 1,
         date: `19/10/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Sparrowhawk`,
@@ -821,7 +821,7 @@ const birddata = [
         imageCount: 1,
         date: `19/10/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Swift`,
@@ -830,6 +830,22 @@ const birddata = [
         date: `08/07/2026`,
         location: `Bempton Cliffs`,
         whatStatus: ``,
+    },
+    {
+        name: `Marsh Harrier`,
+        summary: `Another bird of prey to tick off the list. The one I saw in Lunt Meadows was being pestered by a gull of some kind, wonder what it did to piss it off.`,
+        imageCount: 4,
+        date: `27/10/2026`,
+        location: `Lunt Meadows`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Long-tailed Duck`,
+        summary: `When someone reported seeing this, I looked at images online and it was a beautiful duck. Yet, the one in Lunt Meadows is quite boring and I couldn't even make out the long tail. The pintail is more beautiful! It's a winter visitor from up north.`,
+        imageCount: 2,
+        date: `27/10/2026`,
+        location: `Lunt Meadows`,
+        whatStatus: `new`,
     },
 ]
 
