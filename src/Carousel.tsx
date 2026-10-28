@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 type CarouselProps = {
     name: string;
     imageCount: number;
@@ -7,6 +9,8 @@ type CarouselProps = {
 
 const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselProps) => {
 
+    const [imageLoaded, setImageLoaded] = useState(false);
+
     const renderImg = () => {
         return (
             <img
@@ -14,6 +18,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
                 loading="lazy"
                 alt={name}
                 className="w-full h-full z-5"
+                onLoad={() => setImageLoaded(true)}
             />
         )
     }
@@ -22,7 +27,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
         <div>
             <div className="h-full w-full">
                 <div className="relative">
-                    {activeImage > 1 && (
+                    {activeImage > 1 && imageLoaded && (
                         <button
                             className="absolute top-1/2 left-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100
                             ease-in-out duration-200 rounded-full bg-gray-800 p-2 ml-2"
@@ -32,7 +37,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
                             </svg>
                         </button>)}
                     {renderImg()}
-                    {activeImage < imageCount && (
+                    {activeImage < imageCount && imageLoaded && (
                         <button
                             className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100
                             ease-in-out duration-200 rounded-full p-2 mr-2 bg-gray-800"
