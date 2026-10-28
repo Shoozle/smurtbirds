@@ -36,7 +36,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
                 {whatStatus === `updated` ? " (Updated)" : null}
                 {whatStatus === `new` ? " (New)" : null}
             </h2>
-            {loadedImage === false ? <Placeholder size={"small"} url="" /> : null}
+            {!loadedImage && <Placeholder size={"small"} url="" />}
             {birdThumbnail()}
         </div>
     )
