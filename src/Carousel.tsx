@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { Lineicons } from '@lineiconshq/react-lineicons';
+import { ExpandArrow1Bulk } from '@lineiconshq/free-icons';
+import Modal from "./Modal";
+import { createPortal } from "react-dom";
 
 type CarouselProps = {
     name: string;
@@ -10,20 +14,40 @@ type CarouselProps = {
 const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselProps) => {
 
     const [imageLoaded, setImageLoaded] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false);
 
     const renderImg = () => {
         return (
-            <img
-                src={`./Birds/${name}${activeImage}.JPG`}
-                loading="lazy"
-                alt={name}
-                className="w-full h-full z-5"
-                onLoad={() => setImageLoaded(true)}
-            />
+            <>
+                <img
+                    src={`./Birds/${name}${activeImage}.JPG`}
+                    loading="lazy"
+                    alt={name}
+                    className="w-full h-full z-5"
+                    onLoad={() => setImageLoaded(true)}
+                />
+                {imageLoaded &&
+                    (<Lineicons icon={ExpandArrow1Bulk}
+                        className="cursor-zoom-in absolute bottom-2 right-2 text-white duration-200 focus:outline-none opacity-75 cursor-pointer hover:opacity-100 z-55 size-10 rounded-full bg-gray-800 p-2"
+                        onClick={() => setModalOpen(true)} />
+                    )}
+            </>
         )
     }
 
+    const renderFullImage = () => {
+        if (modalOpen === true) {
+            return (
+                createPortal(
+                    <Modal imgLoc={`./Birds/${name}${activeImage}.JPG`} onClose={() => setModalOpen(false)} />
+                    , document.body))
+        }
+    }
+
+
+
     return (
+
         <div>
             <div className="h-full w-full">
                 <div className="relative">
@@ -37,6 +61,7 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
                             </svg>
                         </button>)}
                     {renderImg()}
+                    {renderFullImage()}
                     {activeImage < imageCount && imageLoaded && (
                         <button
                             className="absolute top-1/2 right-0 transform -translate-y-1/2 text-white focus:outline-none opacity-75 cursor-pointer hover:opacity-100
