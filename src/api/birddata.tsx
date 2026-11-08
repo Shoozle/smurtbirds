@@ -664,7 +664,7 @@ const birddata = [
     }, {
         name: `Stonechat`,
         summary: `They got their name from their call which sounds like 2 stones being scraped together. They look like a fancier more gothic robin and I really like photographing them. The males are darker in tone than the females.`,
-        imageCount: 5,
+        imageCount: 6,
         date: `17/01/2026`,
         location: `Lunt Meadows`,
         whatStatus: ``,
