@@ -9,9 +9,7 @@ function Placeholder({ size, url }: PlaceholderProps) {
     switch (size) {
         case "small":
             return (
-                <div className="relative w-full h-full">
-                    <img src="./Birds/thumbs/Placeholder.JPG" alt="Placeholder" className="animate-pulse w-full h-full z-1 object-cover" />
-                </div>
+                <img src="./Birds/thumbs/Placeholder.JPG" alt="Placeholder" className="animate-pulse w-full h-full z-5 object-cover" />
             );
         case "medium":
             return (
