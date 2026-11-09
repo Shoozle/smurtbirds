@@ -44,8 +44,6 @@ const Carousel = ({ name, imageCount, activeImage, setActiveImage }: CarouselPro
         }
     }
 
-
-
     return (
 
         <div>
