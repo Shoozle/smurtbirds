@@ -15,7 +15,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
         return (
             <div className="relative w-full h-full">
                 <img
-                    className={loadedImage ? "brightness-90 hover:brightness-110 hover:scale-110 transition ease-in duration-300 w-full h-full z-1 object-cover" : ""}
+                    className={loadedImage ? "brightness-90 hover:brightness-110 hover:scale-110 transition ease-in duration-300 w-full h-full z-1 object-cover" : "w-full h-full "}
                     src={`./Birds/thumbs/${name}1.JPG`}
                     alt={name}
                     loading="lazy"
@@ -36,7 +36,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
                 {whatStatus === `updated` ? " (Updated)" : null}
                 {whatStatus === `new` ? " (New)" : null}
             </h2>
-            {!loadedImage && <Placeholder size={"small"} url="" />}
+            {loadedImage === false ? <Placeholder size={"small"} url="" /> : null}
             {birdThumbnail()}
         </div>
     )
