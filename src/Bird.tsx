@@ -14,7 +14,7 @@ function Bird({ onClick, name, whatStatus }: BirdProps) {
     const birdThumbnail = () => {
         return (
             <img
-                className={loadedImage ? "brightness-90 hover:brightness-110 hover:scale-110 transition ease-in duration-300 w-full h-full z-4 object-cover" : ""}
+                className={loadedImage ? "brightness-100 hover:brightness-115 hover:scale-110 transition ease-in duration-300 w-full h-full z-4 object-cover" : ""}
                 src={`./Birds/thumbs/${name}1.JPG`}
                 alt={name}
                 loading="lazy"
