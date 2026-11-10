@@ -482,11 +482,11 @@ const birddata = [
     },
     {
         name: `Pink-footed Goose`,
-        summary: `Can often see flocks of them migrating over Liverpool. They love to nest together in the UK during the Winter. Caught a photo of them at the end of the year thinking it was just Greylag Geese but no, turns out it was pretty cool. Now I constantly look out for them in flocks at marshes.`,
+        summary: `Can often see flocks of them migrating over Liverpool. They love to nest together in the UK during the Winter. Caught a photo of them at the end of the year thinking it was just Greylag Geese but no, turns out it was pretty cool. After they left, found a bunch more at Marshside and other places.`,
         imageCount: 1,
-        date: `30/12/2025`,
-        location: `Heswall Fields`,
-        whatStatus: ``,
+        date: `10/11/2026`,
+        location: `Marshside`,
+        whatStatus: `updated`,
     },
     {
         name: `Puffin`,
@@ -699,7 +699,7 @@ const birddata = [
     }, {
         name: `Wigeon`,
         summary: `A brown headed duck with a white stripe going along it, that helps separate it from a pochard. Not much to say other than, it's yet another duck. There are too many ducks. `,
-        imageCount: 1,
+        imageCount: 2,
         date: `22/02/2026`,
         location: `Marshside`,
         whatStatus: ``,
