@@ -64,7 +64,7 @@ const birddata = [
         imageCount: 3,
         date: `24/09/2026`,
         location: `Chester Zoo`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     },
     {
         name: `Cattle Egret`,
@@ -202,7 +202,7 @@ const birddata = [
         imageCount: 4,
         date: `25/06/2026`,
         location: `Thurstaston`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Egyptian Goose`,
         summary: `Saw it alone in Sheffield which was quite sad to see but made it quite special; then I go to London and there's 100s of them! Fancy looking goose compared to others. `,
@@ -350,7 +350,7 @@ const birddata = [
         imageCount: 9,
         date: `10/01/2026`,
         location: `Rimrose Valley Country Park`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     },
     {
         name: `Kittiwake`,
@@ -486,7 +486,7 @@ const birddata = [
         imageCount: 1,
         date: `10/11/2026`,
         location: `Marshside`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     },
     {
         name: `Puffin`,
@@ -837,7 +837,7 @@ const birddata = [
         imageCount: 4,
         date: `27/10/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
     {
         name: `Long-tailed Duck`,
@@ -845,7 +845,7 @@ const birddata = [
         imageCount: 2,
         date: `27/10/2026`,
         location: `Lunt Meadows`,
-        whatStatus: `new`,
+        whatStatus: ``,
     },
 ]
 
