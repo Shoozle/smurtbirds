@@ -105,10 +105,10 @@ const birddata = [
     }, {
         name: `Chaffinch`,
         summary: `A bird with a lovely song/call. A small amount of repetitive notes followed by a fancy flourish. The males have a lovely colour palette. Often difficult to see through the sticks of trees they perch high upon but at least the colours of the male makes it easier to spot.`,
-        imageCount: 5,
+        imageCount: 6,
         date: `02/05/2026`,
         location: `Tipton`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     }, {
         name: `Chicken`,
         summary: `Should I even count this? I will cos that Silverdale walk was lovely and there was a lot of them.`,
@@ -178,10 +178,10 @@ const birddata = [
     }, {
         name: `Crow`,
         summary: `Often I see a large crow and think it's a raven but it never is. Smart birds apparently, as they will often take advantage of human behaviour to do things such as breaking the shells of nuts by putting them on roads.`,
-        imageCount: 2,
+        imageCount: 3,
         date: `02/05/2026`,
         location: `Tipton`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     }, {
         name: `Curlew`,
         summary: `April 21st is World Curlew Day! A funny looking bird with a huge beak often seen on farms or coasts. Declining population though which is sad to hear.`,
@@ -199,10 +199,10 @@ const birddata = [
     }, {
         name: `Dunnock`,
         summary: `A small bird with a grey ring around the neck. Quiet, shy and spends most of the time on muddy paths similar to Blackbirds. The first time I saw one, it kept flying away from me and hiding in bushes back in the Winter. Often looks grumpy.`,
-        imageCount: 4,
+        imageCount: 6,
         date: `25/06/2026`,
         location: `Thurstaston`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     }, {
         name: `Egyptian Goose`,
         summary: `Saw it alone in Sheffield which was quite sad to see but made it quite special; then I go to London and there's 100s of them! Fancy looking goose compared to others. `,
@@ -521,10 +521,10 @@ const birddata = [
     }, {
         name: `Redwing`,
         summary: `One of the first birds I started hoping to see when I was out in woodland at the start of the year. And thankfully I did see it. They have a red armpit which helps identify it from other thrushes, and they love to eat berries.`,
-        imageCount: 1,
+        imageCount: 2,
         date: `03/01/2026`,
         location: `Thurstaston`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     }, {
         name: `Reed Bunting`,
         summary: `When I was in Wigan, I was really hoping to see one of these by the reed beds, and eventually I did. However, it was raining badly so I stood there watching 2 of them fly around waiting for the sun to come but it never did. Teenagers cycled past asking what I was doing and a different guy answered for me saying I was fishing. I was not fishing.`,
@@ -846,6 +846,14 @@ const birddata = [
         date: `27/10/2026`,
         location: `Lunt Meadows`,
         whatStatus: ``,
+    },
+    {
+        name: `Fieldfare`,
+        summary: `Accidentally deleted the photo I took when I saw 2 of them in Sheffield, but they were a pain and kept flying from me! Bidston Moss may not have delivered on Bullfinches but a couple of noisy Fieldfares were present. A winter visitor from up north.`,
+        imageCount: 3,
+        date: `16/11/2026`,
+        location: `Bidston Moss`,
+        whatStatus: `new`,
     },
 ]
 
