@@ -521,10 +521,10 @@ const birddata = [
     }, {
         name: `Redwing`,
         summary: `One of the first birds I started hoping to see when I was out in woodland at the start of the year. And thankfully I did see it. They have a red armpit which helps identify it from other thrushes, and they love to eat berries.`,
-        imageCount: 2,
+        imageCount: 1,
         date: `03/01/2026`,
         location: `Thurstaston`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Reed Bunting`,
         summary: `When I was in Wigan, I was really hoping to see one of these by the reed beds, and eventually I did. However, it was raining badly so I stood there watching 2 of them fly around waiting for the sun to come but it never did. Teenagers cycled past asking what I was doing and a different guy answered for me saying I was fishing. I was not fishing.`,
@@ -650,10 +650,10 @@ const birddata = [
     }, {
         name: `Song Thrush`,
         summary: `A bird that when I first heard it, I was so amazed by the song I didn't want to possibly scare it off. So as I turned a corner to photo it, it flew off, but landed in a much better spot. That said, is often hard to find as they like to hide deep into trees. I visibly cannot tell the difference between this and a Mistle Thrush`,
-        imageCount: 3,
+        imageCount: 4,
         date: `22/06/2026`,
         location: `Royden Park`,
-        whatStatus: ``
+        whatStatus: `updated`
     }, {
         name: `Starling`,
         summary: `Adorable bird that loves to hang out in car parks in groups like a bunch of teenagers. The iridescent feathers and the beak having 3 colours during breeding season which makes them a joy to photo. Have yet to see a murmuration but hope to one day.`,
