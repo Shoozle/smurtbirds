@@ -148,7 +148,7 @@ const birddata = [
     },
     {
         name: `Goosander`,
-        summary: `A lovely bird with a funky hairdo, but not as funky as the Red-breasted Merganser. At least I think so, but I can't tell if my pic from Silverdale even is correctly identified. Lot of em at West Kirby Marine Lake arriving in the Autumn. I thought these and Goosanders were different birds for many months...`,
+        summary: `A lovely bird with a funky hairdo, but not as funky as the Red-breasted Merganser. At least I think so, but I can't tell if my pic from Silverdale even is correctly identified. Lot of em at West Kirby Marine Lake arriving in the Autumn. I thought these and CommonMergansers were different birds for many months...`,
         imageCount: 3,
         date: `07/10/2026`,
         location: `West Kirby Marine Lake`,
