@@ -857,7 +857,7 @@ const birddata = [
     },
     {
         name: `Snow Bunting`,
-        summary: `A beautiful bird in breeding season where the males are as white as snow. The pair at Thurstaton were sadly very brown as they only come to the UK during out of breeding season! What a shame. Rare visitor from North`,
+        summary: `A beautiful bird in breeding season where the males are as white as snow. The pair at Thurstaton were sadly very brown as they only come to the UK during out of breeding season! What a shame. Rare visitor from northern countries.`,
         imageCount: 4,
         date: `20/11/2026`,
         location: `Thurstaston`,
