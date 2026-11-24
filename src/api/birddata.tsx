@@ -16,7 +16,7 @@ const birddata = [
     }, {
         name: `Blackbird`,
         summary: `Female is brown so I hate the name! Often seen in Winter on the ground flicking leaves around but in Spring, it loves to sing early in the morning and is the first heard during the 'Dawn chorus' Prominent yellow ring around the eye helps distinguish it from other small brown birds.`,
-        imageCount: 3,
+        imageCount: 5,
         date: `11/05/2026`,
         location: `Thurstaston`,
         whatStatus: ``,
@@ -37,10 +37,10 @@ const birddata = [
     }, {
         name: `Black-tailed Godwit`,
         summary: `Large wader that in Summer have brighter orange chests. Sadly my photo was taken in Winter which is when they are the most common in the UK and also means it looks a bit drab. That said, was happy to get a photo of it at Southport.`,
-        imageCount: 1,
+        imageCount: 2,
         date: `22/02/2026`,
         location: `Marshside`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     },
     {
         name: `Little Owl`,
@@ -108,7 +108,7 @@ const birddata = [
         imageCount: 6,
         date: `02/05/2026`,
         location: `Tipton`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Chicken`,
         summary: `Should I even count this? I will cos that Silverdale walk was lovely and there was a lot of them.`,
@@ -177,8 +177,8 @@ const birddata = [
         whatStatus: ``,
     }, {
         name: `Crow`,
-        summary: `Often I see a large crow and think it's a raven but it never is. Smart birds apparently, as they will often take advantage of human behaviour to do things such as breaking the shells of nuts by putting them on roads.`,
-        imageCount: 3,
+        summary: `Often I see a large crow and think it's a raven but it never is. Smart birds apparently, as they will often take advantage of human behaviour to do things such as breaking the shells of nuts by putting them on roads. Saw one having a great time in a puddle.`,
+        imageCount: 7,
         date: `02/05/2026`,
         location: `Tipton`,
         whatStatus: `updated`,
@@ -202,7 +202,7 @@ const birddata = [
         imageCount: 6,
         date: `25/06/2026`,
         location: `Thurstaston`,
-        whatStatus: `updated`,
+        whatStatus: ``,
     }, {
         name: `Egyptian Goose`,
         summary: `Saw it alone in Sheffield which was quite sad to see but made it quite special; then I go to London and there's 100s of them! Fancy looking goose compared to others. `,
@@ -347,10 +347,10 @@ const birddata = [
     }, {
         name: `Kestrel`,
         summary: `Spotted the red wings from behind and thought what the hell is that. I then spent 10 minutes photographing it from below as it stretched, gave me the evil eye and all sorts. It was quite intimate! Then in Holyhead I saw one bite the head off a lizard and then swallow it. And then in Fairburn Ings, I saw one catch a mouse. What luck I have with Kestrels!`,
-        imageCount: 9,
+        imageCount: 10,
         date: `10/01/2026`,
         location: `Rimrose Valley Country Park`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     },
     {
         name: `Kittiwake`,
@@ -398,10 +398,10 @@ const birddata = [
     }, {
         name: `Magpie`,
         summary: `I don't photograph these often and I should probably change that. The iridescent feathers can look lovely in nice lighting. Has a bad rep for eating the eggs of other birds but hey, that's nature!`,
-        imageCount: 3,
-        date: `01/07/2026`,
-        location: `Lunt Meadows`,
-        whatStatus: ``,
+        imageCount: 4,
+        date: `20/11/2026`,
+        location: `Thurstaston`,
+        whatStatus: `updated`,
     }, {
         name: `Mallard`,
         summary: `A duck! A typical duck! I've seen some lovely white mallards with bright yellow beaks but for some reason never kept the photos. I love seeing breeding pairs and a mother duck with a bunch of little ducklings.`,
@@ -653,7 +653,7 @@ const birddata = [
         imageCount: 4,
         date: `22/06/2026`,
         location: `Royden Park`,
-        whatStatus: `updated`
+        whatStatus: ``
     }, {
         name: `Starling`,
         summary: `Adorable bird that loves to hang out in car parks in groups like a bunch of teenagers. The iridescent feathers and the beak having 3 colours during breeding season which makes them a joy to photo. Have yet to see a murmuration but hope to one day.`,
@@ -773,10 +773,10 @@ const birddata = [
     }, {
         name: `Robin`,
         summary: `One of my favourite birds to photograph as they are frequently on branches at chest height. We associate them a lot with Winter but that's mostly because other birds quiet down or migrate, so they are the last few left singing. They are quite territorial which makes them fitting as Britain's unofficial national bird.`,
-        imageCount: 5,
+        imageCount: 8,
         date: `03/01/2026`,
         location: `Thurstaston`,
-        whatStatus: ``,
+        whatStatus: `updated`,
     }, {
         name: `Blue Tit`,
         summary: `An absolutely cutie pie of a bird. Apparently the males with the bluest heads are the most likely to get the females. The word tit used to mean small thing which is why so many birds are called tits. They sync up their laying of eggs with the caterpillar season so if you see one with a caterpillar, you may be able to see it fly back to the nest.`,
@@ -853,8 +853,33 @@ const birddata = [
         imageCount: 3,
         date: `16/11/2026`,
         location: `Bidston Moss`,
+        whatStatus: ``,
+    },
+    {
+        name: `Snow Bunting`,
+        summary: `A beautiful bird in breeding season where the males are as white as snow. The pair at Thurstaton were sadly very brown as they only come to the UK during out of breeding season! What a shame. Rare visitor from North`,
+        imageCount: 4,
+        date: `20/11/2026`,
+        location: `Thurstaston`,
         whatStatus: `new`,
     },
+    {
+        name: `Grey Plover`,
+        summary: `Took photos of what seemed like every typical bird I see at a beach, and this was a new one according to Merlin... so I guess it's a Grey Plover. Thank you Snow Buntings for getting me out and got this by happenstance.`,
+        imageCount: 2,
+        date: `20/11/2026`,
+        location: `Thurstaston`,
+        whatStatus: `new`,
+    },
+    {
+        name: `Bar-tailed Godwit`,
+        summary: `I struggle to tell the difference between this and a Black-tailed Godwit but the beak kind of gives it a way when comparing them side-by-side. Another grey wader bird.`,
+        imageCount: 2,
+        date: `20/11/2026`,
+        location: `Thurstaston`,
+        whatStatus: `new`,
+    },
+
 ]
 
 birddata.sort((a, b) => a.name.localeCompare(b.name));
