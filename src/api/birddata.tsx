@@ -650,7 +650,7 @@ const birddata = [
     }, {
         name: `Song Thrush`,
         summary: `A bird that when I first heard it, I was so amazed by the song I didn't want to possibly scare it off. So as I turned a corner to photo it, it flew off, but landed in a much better spot. That said, is often hard to find as they like to hide deep into trees. I visibly cannot tell the difference between this and a Mistle Thrush`,
-        imageCount: 4,
+        imageCount: 3,
         date: `22/06/2026`,
         location: `Royden Park`,
         whatStatus: ``
