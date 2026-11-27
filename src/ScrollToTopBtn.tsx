@@ -26,7 +26,7 @@ function ScrollToTopBtn({ }: ScrollToTopProps) {
     }, []);
 
     return (
-        <button onClick={scrollToTop} className={isVisible ? "fixed bottom-4 right-4 bg-gray-900/80 text-white p-2 rounded-full shadow-lg hover:bg-gray-900/100 transition duration-300 pointer z-2" : "hidden"}>
+        <button onClick={scrollToTop} className={isVisible ? "fixed bottom-4 right-4 bg-gray-900/80 text-white p-2 rounded-full shadow-lg hover:bg-gray-900/100 transition duration-300 cursor-pointer z-2" : "hidden"}>
             <Lineicons icon={AngleDoubleUpBulk} className="" />
         </button>
     )
