@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Gallery from './Gallery'
 import Zoos from './Zoos'
+import ScrollToTopBtn from './ScrollToTopBtn'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <div className="bg-black antialiased pb-4">
         {activeWindow[0] === 'birds' ? <Gallery /> : <Zoos />}
       </div>
+      <ScrollToTopBtn />
     </>
   )
 }

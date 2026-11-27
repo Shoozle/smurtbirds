@@ -27,7 +27,7 @@ function BirdPanel({ onClick, onPrevBird, onNextBird, onKeyDown, name, summary, 
 
     return (
         <>
-            <div onClick={onClick} onKeyDown={() => onKeyDown} className="z-2 h-full w-full fixed top-0 left-0 bg-gray-900/80 cursor-zoom-out backdrop-blur-sm p-4">
+            <div onClick={onClick} onKeyDown={() => onKeyDown} className="z-3 h-full w-full fixed top-0 left-0 bg-gray-900/80 cursor-zoom-out backdrop-blur-sm p-4">
             </div>
             <div className="z-3 fixed top-1/2 left-1/2 mt-1/2 ml-1/2 -translate-y-1/2 -translate-x-1/2 grid sm:grid-cols-1 w-full md:grid-cols-1 lg:grid-cols-3 max-w-[1600px] bg-gray-900/90 backdrop-blur-sm rounded-lg">
                 <div className="grid absolute w-full -top-12 grid-cols-2 justify-around ">
